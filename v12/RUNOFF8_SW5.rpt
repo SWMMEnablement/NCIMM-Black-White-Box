@@ -1,0 +1,24 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+  
+  ERROR 209: undefined object 0 at line 60 of [SUBCATCHMENT] section:
+  1                GAGE1            gutter1          300.0    1.0      10.0     0.1      0        0               
+
+  
+  ERROR 209: undefined object 0 at line 61 of [SUBCATCHMENT] section:
+  2                GAGE1            gutter3          500.0    1.0      10.0     0.1      0        0               
+
+  
+  ERROR 209: undefined object 0 at line 62 of [SUBCATCHMENT] section:
+  3                GAGE1            gutter6          500.0    1.0      10.0     0.1      0        0               
+
+  
+  ERROR 209: undefined object 0 at line 63 of [SUBCATCHMENT] section:
+  4                GAGE1            gutter5          500.0    1.0      10.0     0.1      0        0               
+
+
+  Analysis begun on:  Wed Jan 02 08:33:49 2019
+  Analysis ended on:  Wed Jan 02 08:33:49 2019
+  Total elapsed time: < 1 sec

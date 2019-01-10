@@ -1,0 +1,248 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.013)
+  --------------------------------------------------------------
+
+        Extran with surcharge in 2 foot circular conduits 
+        SWMM CRADA Example 1 
+  
+  
+  *********************************************************
+  NOTE: The summary statistics displayed in this report are
+  based on results found at every computational time step,  
+  not just on results from each reporting time step.
+  *********************************************************
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... CFS
+  Process Models:
+    Rainfall/Runoff ........ NO
+    RDII ................... NO
+    Snowmelt ............... NO
+    Groundwater ............ NO
+    Flow Routing ........... YES
+    Ponding Allowed ........ NO
+    Water Quality .......... NO
+  Flow Routing Method ...... DYNWAVE
+  Surcharge Method ......... EXTRAN
+  Starting Date ............ 02/22/2002 00:00:00
+  Ending Date .............. 02/22/2002 00:50:00
+  Antecedent Dry Days ...... 0.0
+  Report Time Step ......... 00:00:10
+  Routing Time Step ........ 10.00 sec
+  Variable Time Step ....... YES
+  Maximum Trials ........... 8
+  Number of Threads ........ 1
+  Head Tolerance ........... 0.005000 ft
+  
+  
+  **************************        Volume        Volume
+  Flow Routing Continuity        acre-feet      10^6 gal
+  **************************     ---------     ---------
+  Dry Weather Inflow .......         0.000         0.000
+  Wet Weather Inflow .......         0.000         0.000
+  Groundwater Inflow .......         0.000         0.000
+  RDII Inflow ..............         0.000         0.000
+  External Inflow ..........         1.460         0.476
+  External Outflow .........         1.166         0.380
+  Flooding Loss ............         0.222         0.072
+  Evaporation Loss .........         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000
+  Initial Stored Volume ....         0.000         0.000
+  Final Stored Volume ......         0.070         0.023
+  Continuity Error (%) .....         0.160
+  
+  
+  ***************************
+  Time-Step Critical Elements
+  ***************************
+  Link outlet (81.49%)
+  Link pipe1 (5.63%)
+  Link pipe8 (4.33%)
+  Link pipe9 (1.62%)
+  Link pipe3 (1.41%)
+  
+  
+  ********************************
+  Highest Flow Instability Indexes
+  ********************************
+  Link pipe4 (2)
+  Link pipe3 (2)
+  Link pipe5 (2)
+  Link pipe9 (2)
+  Link pipe6 (1)
+  
+  
+  *************************
+  Routing Time Step Summary
+  *************************
+  Minimum Time Step           :     0.50 sec
+  Average Time Step           :     3.25 sec
+  Maximum Time Step           :    10.00 sec
+  Percent in Steady State     :    -0.00
+  Average Iterations per Step :     2.82
+  Percent Not Converging      :     8.77
+  
+  
+  ******************
+  Node Depth Summary
+  ******************
+  
+  ---------------------------------------------------------------------------------
+                                 Average  Maximum  Maximum  Time of Max    Reported
+                                   Depth    Depth      HGL   Occurrence   Max Depth
+  Node                 Type         Feet     Feet     Feet  days hr:min        Feet
+  ---------------------------------------------------------------------------------
+  Inflow               JUNCTION     9.17    10.00    20.00     0  00:12       10.00
+  mid1                 JUNCTION     8.60     9.43    19.43     0  00:12        9.42
+  mid2                 JUNCTION     8.04     8.85    18.85     0  00:12        8.84
+  mid3                 JUNCTION     7.48     8.26    18.26     0  00:12        8.26
+  mid4                 JUNCTION     6.94     7.67    17.67     0  00:12        7.67
+  mid5                 JUNCTION     6.38     7.08    17.08     0  00:12        7.08
+  mid6                 JUNCTION     5.84     6.48    16.48     0  00:12        6.48
+  mid7                 JUNCTION     5.28     5.89    15.89     0  00:12        5.88
+  mid8                 JUNCTION     4.74     5.29    15.29     0  00:12        5.29
+  mid9                 JUNCTION     4.17     5.02    15.02     0  00:07        4.69
+  Outlet               OUTFALL      0.00     0.00    10.00     0  00:00        0.00
+  
+  
+  *******************
+  Node Inflow Summary
+  *******************
+  
+  -------------------------------------------------------------------------------------------------
+                                  Maximum  Maximum                  Lateral       Total        Flow
+                                  Lateral    Total  Time of Max      Inflow      Inflow     Balance
+                                   Inflow   Inflow   Occurrence      Volume      Volume       Error
+  Node                 Type           CFS      CFS  days hr:min    10^6 gal    10^6 gal     Percent
+  -------------------------------------------------------------------------------------------------
+  Inflow               JUNCTION     25.00    25.00     0  00:15       0.476       0.476       0.335
+  mid1                 JUNCTION      0.00    20.56     0  00:13           0       0.402       0.629
+  mid2                 JUNCTION      0.00    20.56     0  00:13           0       0.399       0.610
+  mid3                 JUNCTION      0.00    20.55     0  00:13           0       0.397       0.641
+  mid4                 JUNCTION      0.00    20.55     0  00:13           0       0.394       0.641
+  mid5                 JUNCTION      0.00    20.55     0  00:14           0       0.392       0.617
+  mid6                 JUNCTION      0.00    20.55     0  00:14           0       0.389       0.631
+  mid7                 JUNCTION      0.00    20.55     0  00:14           0       0.387       0.650
+  mid8                 JUNCTION      0.00    20.55     0  00:14           0       0.384       0.624
+  mid9                 JUNCTION      0.00    20.56     0  00:12           0       0.382       0.614
+  Outlet               OUTFALL       0.00    20.57     0  00:12           0        0.38       0.000
+  
+  
+  **********************
+  Node Surcharge Summary
+  **********************
+  
+  Surcharging occurs when water rises above the top of the highest conduit.
+  ---------------------------------------------------------------------
+                                               Max. Height   Min. Depth
+                                   Hours       Above Crown    Below Rim
+  Node                 Type      Surcharged           Feet         Feet
+  ---------------------------------------------------------------------
+  Inflow               JUNCTION        0.72          5.000        0.000
+  mid1                 JUNCTION        0.78          7.426        0.574
+  mid2                 JUNCTION        0.71          3.847        1.153
+  mid3                 JUNCTION        0.76          6.262        1.738
+  mid4                 JUNCTION        0.71          2.673        2.327
+  mid5                 JUNCTION        0.74          5.078        2.922
+  mid6                 JUNCTION        0.69          1.482        3.518
+  mid7                 JUNCTION        0.72          3.886        4.114
+  mid8                 JUNCTION        0.64          0.292        4.708
+  mid9                 JUNCTION        0.71          3.017        4.983
+  
+  
+  *********************
+  Node Flooding Summary
+  *********************
+  
+  Flooding refers to all water that overflows a node, whether it ponds or not.
+  --------------------------------------------------------------------------
+                                                             Total   Maximum
+                                 Maximum   Time of Max       Flood    Ponded
+                        Hours       Rate    Occurrence      Volume     Depth
+  Node                 Flooded       CFS   days hr:min    10^6 gal      Feet
+  --------------------------------------------------------------------------
+  Inflow                  0.63      4.45      0  00:15       0.073     0.000
+  
+  
+  ***********************
+  Outfall Loading Summary
+  ***********************
+  
+  -----------------------------------------------------------
+                         Flow       Avg       Max       Total
+                         Freq      Flow      Flow      Volume
+  Outfall Node           Pcnt       CFS       CFS    10^6 gal
+  -----------------------------------------------------------
+  Outlet                89.18     19.96     20.57       0.380
+  -----------------------------------------------------------
+  System                89.18     19.96     20.57       0.380
+  
+  
+  ********************
+  Link Flow Summary
+  ********************
+  
+  -----------------------------------------------------------------------------
+                                 Maximum  Time of Max   Maximum    Max/    Max/
+                                  |Flow|   Occurrence   |Veloc|    Full    Full
+  Link                 Type          CFS  days hr:min    ft/sec    Flow   Depth
+  -----------------------------------------------------------------------------
+  pipe1                CONDUIT     20.56     0  00:13      8.04    0.44    1.00
+  pipe2                CONDUIT     20.56     0  00:13      6.54    0.44    1.00
+  pipe3                CONDUIT     20.55     0  00:13      9.92    0.44    1.00
+  pipe4                CONDUIT     20.55     0  00:13      6.54    0.44    1.00
+  pipe5                CONDUIT     20.55     0  00:14      9.64    0.44    1.00
+  pipe6                CONDUIT     20.55     0  00:14      6.54    0.44    1.00
+  pipe7                CONDUIT     20.55     0  00:14      9.70    0.44    1.00
+  pipe8                CONDUIT     20.55     0  00:14      6.54    0.44    1.00
+  pipe9                CONDUIT     20.56     0  00:12      9.98    0.44    1.00
+  outlet               CONDUIT     20.57     0  00:12      8.33    0.44    0.73
+  
+  
+  ***************************
+  Flow Classification Summary
+  ***************************
+  
+  -------------------------------------------------------------------------------------
+                      Adjusted    ---------- Fraction of Time in Flow Class ---------- 
+                       /Actual         Up    Down  Sub   Sup   Up    Down  Norm  Inlet 
+  Conduit               Length    Dry  Dry   Dry   Crit  Crit  Crit  Crit  Ltd   Ctrl  
+  -------------------------------------------------------------------------------------
+  pipe1                   1.00   0.01  0.00  0.00  0.98  0.01  0.00  0.00  0.03  0.00
+  pipe2                   1.00   0.01  0.02  0.00  0.96  0.00  0.01  0.00  0.00  0.00
+  pipe3                   1.00   0.03  0.00  0.00  0.96  0.01  0.00  0.00  0.01  0.00
+  pipe4                   1.00   0.03  0.02  0.00  0.94  0.00  0.01  0.00  0.00  0.00
+  pipe5                   1.00   0.05  0.00  0.00  0.94  0.01  0.00  0.00  0.01  0.00
+  pipe6                   1.00   0.05  0.02  0.00  0.93  0.00  0.01  0.00  0.00  0.00
+  pipe7                   1.00   0.06  0.00  0.00  0.92  0.01  0.00  0.00  0.01  0.00
+  pipe8                   1.00   0.06  0.02  0.00  0.90  0.00  0.02  0.00  0.00  0.00
+  pipe9                   1.00   0.08  0.00  0.00  0.90  0.02  0.00  0.00  0.01  0.00
+  outlet                  1.00   0.08  0.02  0.00  0.00  0.00  0.89  0.00  0.00  0.00
+  
+  
+  *************************
+  Conduit Surcharge Summary
+  *************************
+  
+  ----------------------------------------------------------------------------
+                                                           Hours        Hours 
+                         --------- Hours Full --------   Above Full   Capacity
+  Conduit                Both Ends  Upstream  Dnstream   Normal Flow   Limited
+  ----------------------------------------------------------------------------
+  pipe1                       0.72      0.72      0.78      0.01         0.01
+  pipe2                       0.71      0.71      0.78      0.01         0.01
+  pipe3                       0.71      0.71      0.76      0.01         0.01
+  pipe4                       0.70      0.70      0.76      0.01         0.01
+  pipe5                       0.70      0.70      0.74      0.01         0.01
+  pipe6                       0.69      0.69      0.74      0.01         0.01
+  pipe7                       0.69      0.69      0.72      0.01         0.01
+  pipe8                       0.64      0.64      0.72      0.01         0.01
+  pipe9                       0.64      0.64      0.71      0.01         0.01
+  outlet                      0.01      0.01      0.71      0.01         0.01
+  
+
+  Analysis begun on:  Wed Jan 02 08:52:56 2019
+  Analysis ended on:  Wed Jan 02 08:52:56 2019
+  Total elapsed time: < 1 sec

@@ -1,0 +1,298 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+   SW 1 9 8A1 'PCSWMM 3.2 EXERCISE 5 - Runoff example 31'A1 'SUSPENDED SOLIDS 
+  
+  WARNING 08: elevation drop exceeds length for Conduit Node301
+  
+  *************
+  Element Count
+  *************
+  Number of rain gages ...... 1
+  Number of subcatchments ... 2
+  Number of nodes ........... 2
+  Number of links ........... 1
+  Number of pollutants ...... 2
+  Number of land uses ....... 2
+  
+  
+  *****************
+  Pollutant Summary
+  *****************
+                               Ppt.      GW         Kdecay
+  Name                 Units   Concen.   Concen.    1/days    CoPollutant
+  -----------------------------------------------------------------------
+  TOT.SOL               MG/L      0.00      0.00      0.00
+  pb                    UG/L      0.00      0.00      0.00    TOT.SOL  (0.10)
+  
+  
+  ***************
+  Landuse Summary
+  ***************
+                         Sweeping   Maximum      Last
+  Name                   Interval   Removal     Swept
+  ---------------------------------------------------
+  SINGLE                    30.00      0.80     15.00
+  MULTI                     30.00      0.80     15.00
+  
+  
+  ****************
+  Raingage Summary
+  ****************
+                                                      Data       Recording
+  Name                 Data Source                    Type       Interval 
+  ------------------------------------------------------------------------
+  GAGE1                RainSeries1                    INTENSITY    5 min.
+  
+  
+  ********************
+  Subcatchment Summary
+  ********************
+  Name                       Area     Width   %Imperv    %Slope Rain Gage            Outlet              
+  -----------------------------------------------------------------------------------------------------------
+  Wat101                    10.00    997.00     40.00    2.0000 GAGE1                Node301             
+  Wat102                    10.00    997.00     40.00    2.0000 GAGE1                Node201             
+  
+  
+  ************
+  Node Summary
+  ************
+                                           Invert      Max.    Ponded    External
+  Name                 Type                 Elev.     Depth      Area    Inflow  
+  -------------------------------------------------------------------------------
+  Node301              JUNCTION            100.00     20.00       0.0
+  Node201              OUTFALL               0.00      4.00       0.0
+  
+  
+  ************
+  Link Summary
+  ************
+  Name             From Node        To Node          Type            Length    %Slope Roughness
+  ---------------------------------------------------------------------------------------------
+  Node301          Node301          Node201          CONDUIT          100.0  100.0000    0.0120
+  
+  
+  *********************
+  Cross Section Summary
+  *********************
+                                        Full     Full     Hyd.     Max.   No. of     Full
+  Conduit          Shape               Depth     Area     Rad.    Width  Barrels     Flow
+  ---------------------------------------------------------------------------------------
+  Node301          CIRCULAR             4.00    12.57     1.00     4.00        1  1556.14
+  
+  
+  
+  *********************************************************
+  NOTE: The summary statistics displayed in this report are
+  based on results found at every computational time step,  
+  not just on results from each reporting time step.
+  *********************************************************
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... CFS
+  Process Models:
+    Rainfall/Runoff ........ YES
+    RDII ................... NO
+    Snowmelt ............... NO
+    Groundwater ............ NO
+    Flow Routing ........... YES
+    Ponding Allowed ........ NO
+    Water Quality .......... YES
+  Infiltration Method ...... HORTON
+  Flow Routing Method ...... KINWAVE
+  Starting Date ............ 05/23/1985 12:00:00
+  Ending Date .............. 05/23/1985 16:10:00
+  Antecedent Dry Days ...... 5.0
+  Report Time Step ......... 00:15:00
+  Wet Time Step ............ 00:05:00
+  Dry Time Step ............ 23:00:00
+  Routing Time Step ........ 30.00 sec
+  
+  
+  **************************        Volume         Depth
+  Runoff Quantity Continuity     acre-feet        inches
+  **************************     ---------       -------
+  Total Precipitation ......         1.389         0.833
+  Evaporation Loss .........         0.012         0.007
+  Infiltration Loss ........         0.832         0.499
+  Surface Runoff ...........         0.530         0.318
+  Final Storage ............         0.021         0.013
+  Continuity Error (%) .....        -0.458
+  
+  
+  **************************       TOT.SOL            pb
+  Runoff Quality Continuity            lbs           lbs
+  **************************    ----------    ----------
+  Initial Buildup ..........         0.000         0.000
+  Surface Buildup ..........         0.000         0.000
+  Wet Deposition ...........         0.000         0.000
+  Sweeping Removal .........         0.000         0.000
+  Infiltration Loss ........         0.000         0.000
+  BMP Removal ..............         0.000         0.000
+  Surface Runoff ...........         0.000         0.000
+  Remaining Buildup ........         0.000         0.000
+  Continuity Error (%) .....         0.000         0.000
+  
+  
+  **************************        Volume        Volume
+  Flow Routing Continuity        acre-feet      10^6 gal
+  **************************     ---------     ---------
+  Dry Weather Inflow .......         0.000         0.000
+  Wet Weather Inflow .......         0.530         0.173
+  Groundwater Inflow .......         0.000         0.000
+  RDII Inflow ..............         0.000         0.000
+  External Inflow ..........         0.000         0.000
+  External Outflow .........         0.530         0.173
+  Flooding Loss ............         0.000         0.000
+  Evaporation Loss .........         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000
+  Initial Stored Volume ....         0.000         0.000
+  Final Stored Volume ......         0.000         0.000
+  Continuity Error (%) .....        -0.011
+  
+  
+  **************************       TOT.SOL            pb
+  Quality Routing Continuity           lbs           lbs
+  **************************    ----------    ----------
+  Dry Weather Inflow .......         0.000         0.000
+  Wet Weather Inflow .......         0.000         0.000
+  Groundwater Inflow .......         0.000         0.000
+  RDII Inflow ..............         0.000         0.000
+  External Inflow ..........         0.000         0.000
+  External Outflow .........         0.000         0.000
+  Flooding Loss ............         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000
+  Mass Reacted .............         0.000         0.000
+  Initial Stored Mass ......         0.000         0.000
+  Final Stored Mass ........         0.000         0.000
+  Continuity Error (%) .....         0.000         0.000
+  
+  
+  ********************************
+  Highest Flow Instability Indexes
+  ********************************
+  All links are stable.
+  
+  
+  *************************
+  Routing Time Step Summary
+  *************************
+  Minimum Time Step           :    29.00 sec
+  Average Time Step           :    30.00 sec
+  Maximum Time Step           :    30.00 sec
+  Percent in Steady State     :     0.00
+  Average Iterations per Step :     1.00
+  Percent Not Converging      :     0.00
+  
+  
+  ***************************
+  Subcatchment Runoff Summary
+  ***************************
+  
+  --------------------------------------------------------------------------------------------------------
+                            Total      Total      Total      Total      Total       Total     Peak  Runoff
+                           Precip      Runon       Evap      Infil     Runoff      Runoff   Runoff   Coeff
+  Subcatchment                 in         in         in         in         in    10^6 gal      CFS
+  --------------------------------------------------------------------------------------------------------
+  Wat101                     0.83       0.00       0.01       0.50       0.32        0.09     4.02   0.382
+  Wat102                     0.83       0.00       0.01       0.50       0.32        0.09     4.02   0.382
+  
+  
+  ****************************
+  Subcatchment Washoff Summary
+  ****************************
+  
+  ------------------------------------------------
+                             TOT.SOL            pb
+  Subcatchment                   lbs           lbs
+  ------------------------------------------------
+  Wat101                       0.000         0.000
+  Wat102                       0.000         0.000
+  ------------------------------------------------
+  System                       0.000         0.000
+  
+  
+  ******************
+  Node Depth Summary
+  ******************
+  
+  ---------------------------------------------------------------------------------
+                                 Average  Maximum  Maximum  Time of Max    Reported
+                                   Depth    Depth      HGL   Occurrence   Max Depth
+  Node                 Type         Feet     Feet     Feet  days hr:min        Feet
+  ---------------------------------------------------------------------------------
+  Node301              JUNCTION     0.04     0.15   100.15     0  00:50        0.15
+  Node201              OUTFALL      0.04     0.15     0.15     0  00:50        0.15
+  
+  
+  *******************
+  Node Inflow Summary
+  *******************
+  
+  -------------------------------------------------------------------------------------------------
+                                  Maximum  Maximum                  Lateral       Total        Flow
+                                  Lateral    Total  Time of Max      Inflow      Inflow     Balance
+                                   Inflow   Inflow   Occurrence      Volume      Volume       Error
+  Node                 Type           CFS      CFS  days hr:min    10^6 gal    10^6 gal     Percent
+  -------------------------------------------------------------------------------------------------
+  Node301              JUNCTION      4.02     4.02     0  00:50      0.0864      0.0864       0.000
+  Node201              OUTFALL       4.02     8.03     0  00:50      0.0864       0.173       0.000
+  
+  
+  *********************
+  Node Flooding Summary
+  *********************
+  
+  No nodes were flooded.
+  
+  
+  ***********************
+  Outfall Loading Summary
+  ***********************
+  
+  ---------------------------------------------------------------------------------------
+                         Flow       Avg       Max       Total         Total         Total
+                         Freq      Flow      Flow      Volume       TOT.SOL            pb
+  Outfall Node           Pcnt       CFS       CFS    10^6 gal           lbs           lbs
+  ---------------------------------------------------------------------------------------
+  Node201               54.00      2.85      8.03       0.173         0.000         0.000
+  ---------------------------------------------------------------------------------------
+  System                54.00      2.85      8.03       0.173         0.000         0.000
+  
+  
+  ********************
+  Link Flow Summary
+  ********************
+  
+  -----------------------------------------------------------------------------
+                                 Maximum  Time of Max   Maximum    Max/    Max/
+                                  |Flow|   Occurrence   |Veloc|    Full    Full
+  Link                 Type          CFS  days hr:min    ft/sec    Flow   Depth
+  -----------------------------------------------------------------------------
+  Node301              CONDUIT      4.02     0  00:50     26.33    0.00    0.04
+  
+  
+  *************************
+  Conduit Surcharge Summary
+  *************************
+  
+  No conduits were surcharged.
+  
+  
+  ***************************
+  Link Pollutant Load Summary
+  ***************************
+  
+  ------------------------------------------------
+                             TOT.SOL            pb
+  Link                           lbs           lbs
+  ------------------------------------------------
+  Node301                      0.000         0.000
+  
+
+  Analysis begun on:  Wed Jan 02 08:33:47 2019
+  Analysis ended on:  Wed Jan 02 08:33:47 2019
+  Total elapsed time: < 1 sec

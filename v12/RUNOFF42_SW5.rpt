@@ -1,0 +1,179 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+   SW 1 9 8A1 'runoff.dat test case using only precipitation quality'A1 'gener 
+  
+  
+  *************
+  Element Count
+  *************
+  Number of rain gages ...... 1
+  Number of subcatchments ... 1
+  Number of nodes ........... 1
+  Number of links ........... 0
+  Number of pollutants ...... 4
+  Number of land uses ....... 1
+  
+  
+  *****************
+  Pollutant Summary
+  *****************
+                               Ppt.      GW         Kdecay
+  Name                 Units   Concen.   Concen.    1/days    CoPollutant
+  -----------------------------------------------------------------------
+  ss-0                  MG/L     10.00      0.00      0.00
+  ss-1                  MG/L     10.00      0.00      0.00
+  ss-2                  MG/L     10.00      0.00      0.00
+  ss-3                  MG/L     10.00      0.00      0.00
+  
+  
+  ***************
+  Landuse Summary
+  ***************
+                         Sweeping   Maximum      Last
+  Name                   Interval   Removal     Swept
+  ---------------------------------------------------
+  imperv                     0.00      0.00      0.00
+  
+  
+  ****************
+  Raingage Summary
+  ****************
+                                                      Data       Recording
+  Name                 Data Source                    Type       Interval 
+  ------------------------------------------------------------------------
+  GAGE1                RainSeries1                    VOLUME     240 min.
+  
+  
+  ********************
+  Subcatchment Summary
+  ********************
+  Name                       Area     Width   %Imperv    %Slope Rain Gage            Outlet              
+  -----------------------------------------------------------------------------------------------------------
+  101                      100.00    500.00     90.00    2.0000 GAGE1                102                 
+  
+  
+  ************
+  Node Summary
+  ************
+                                           Invert      Max.    Ponded    External
+  Name                 Type                 Elev.     Depth      Area    Inflow  
+  -------------------------------------------------------------------------------
+  102                  OUTFALL               0.00      0.00       0.0
+  
+  
+  
+  *********************************************************
+  NOTE: The summary statistics displayed in this report are
+  based on results found at every computational time step,  
+  not just on results from each reporting time step.
+  *********************************************************
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... CFS
+  Process Models:
+    Rainfall/Runoff ........ YES
+    RDII ................... NO
+    Snowmelt ............... NO
+    Groundwater ............ NO
+    Flow Routing ........... NO
+    Water Quality .......... YES
+  Infiltration Method ...... HORTON
+  Starting Date ............ 01/01/1960 00:00:00
+  Ending Date .............. 02/03/1960 08:00:00
+  Antecedent Dry Days ...... 0.0
+  Report Time Step ......... 00:15:00
+  Wet Time Step ............ 01:00:00
+  Dry Time Step ............ 23:00:00
+  
+  
+  **************************        Volume         Depth
+  Runoff Quantity Continuity     acre-feet        inches
+  **************************     ---------       -------
+  Total Precipitation ......        33.333         4.000
+  Evaporation Loss .........         0.000         0.000
+  Infiltration Loss ........         3.333         0.400
+  Surface Runoff ...........        30.241         3.629
+  Final Storage ............         0.130         0.016
+  Continuity Error (%) .....        -1.112
+  
+  
+  **************************          ss-0          ss-1          ss-2          ss-3
+  Runoff Quality Continuity            lbs           lbs           lbs           lbs
+  **************************    ----------    ----------    ----------    ----------
+  Initial Buildup ..........         0.000         0.000         0.000         0.000
+  Surface Buildup ..........         0.317         0.317       125.833         0.317
+  Wet Deposition ...........       905.825       905.825       905.825       905.825
+  Sweeping Removal .........         0.000         0.000         0.000         0.000
+  Infiltration Loss ........        90.582        90.582        90.582        90.582
+  BMP Removal ..............         0.000         0.000         0.000         0.000
+  Surface Runoff ...........       822.112       822.112       947.627       822.112
+  Remaining Buildup ........         3.521         3.521         3.521         3.521
+  Continuity Error (%) .....        -1.112        -1.112        -0.976        -1.112
+  
+  
+  **************************        Volume        Volume
+  Flow Routing Continuity        acre-feet      10^6 gal
+  **************************     ---------     ---------
+  Dry Weather Inflow .......         0.000         0.000
+  Wet Weather Inflow .......        30.241         9.854
+  Groundwater Inflow .......         0.000         0.000
+  RDII Inflow ..............         0.000         0.000
+  External Inflow ..........         0.000         0.000
+  External Outflow .........        30.241         9.854
+  Flooding Loss ............         0.000         0.000
+  Evaporation Loss .........         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000
+  Initial Stored Volume ....         0.000         0.000
+  Final Stored Volume ......         0.000         0.000
+  Continuity Error (%) .....         0.000
+  
+  
+  **************************          ss-0          ss-1          ss-2          ss-3
+  Quality Routing Continuity           lbs           lbs           lbs           lbs
+  **************************    ----------    ----------    ----------    ----------
+  Dry Weather Inflow .......         0.000         0.000         0.000         0.000
+  Wet Weather Inflow .......       793.121       793.121       918.636       793.121
+  Groundwater Inflow .......         0.000         0.000         0.000         0.000
+  RDII Inflow ..............         0.000         0.000         0.000         0.000
+  External Inflow ..........         0.000         0.000         0.000         0.000
+  External Outflow .........       793.121       793.121       918.636       793.121
+  Flooding Loss ............         0.000         0.000         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000         0.000         0.000
+  Mass Reacted .............         0.000         0.000         0.000         0.000
+  Initial Stored Mass ......         0.000         0.000         0.000         0.000
+  Final Stored Mass ........         0.000         0.000         0.000         0.000
+  Continuity Error (%) .....         0.000         0.000         0.000         0.000
+  
+  
+  ***************************
+  Subcatchment Runoff Summary
+  ***************************
+  
+  --------------------------------------------------------------------------------------------------------
+                            Total      Total      Total      Total      Total       Total     Peak  Runoff
+                           Precip      Runon       Evap      Infil     Runoff      Runoff   Runoff   Coeff
+  Subcatchment                 in         in         in         in         in    10^6 gal      CFS
+  --------------------------------------------------------------------------------------------------------
+  101                        4.00       0.00       0.00       0.40       3.63        9.85     7.72   0.907
+  
+  
+  ****************************
+  Subcatchment Washoff Summary
+  ****************************
+  
+  ----------------------------------------------------------------------------
+                                ss-0          ss-1          ss-2          ss-3
+  Subcatchment                   lbs           lbs           lbs           lbs
+  ----------------------------------------------------------------------------
+  101                        822.112       822.112       947.627       822.112
+  ----------------------------------------------------------------------------
+  System                     822.112       822.112       947.627       822.112
+  
+
+  Analysis begun on:  Wed Jan 02 08:33:48 2019
+  Analysis ended on:  Wed Jan 02 08:33:48 2019
+  Total elapsed time: < 1 sec

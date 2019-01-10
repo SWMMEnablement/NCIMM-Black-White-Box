@@ -1,0 +1,432 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+  make a change and have it stick 
+  
+  
+  *************
+  Element Count
+  *************
+  Number of rain gages ...... 1
+  Number of subcatchments ... 4
+  Number of nodes ........... 5
+  Number of links ........... 5
+  Number of pollutants ...... 5
+  Number of land uses ....... 1
+  
+  
+  *****************
+  Pollutant Summary
+  *****************
+                               Ppt.      GW         Kdecay
+  Name                 Units   Concen.   Concen.    1/days    CoPollutant
+  -----------------------------------------------------------------------
+  COD                   MG/L      5.00    100.00      0.00
+  TOT.SOL               MG/L      5.00      0.00      0.00
+  TOT.NIT               MG/L      0.30      0.00      0.00
+  TSS                   MG/L      5.00      0.00      0.00
+  O-PO4-P               MG/L      0.00      0.00      0.00
+  
+  
+  ***************
+  Landuse Summary
+  ***************
+                         Sweeping   Maximum      Last
+  Name                   Interval   Removal     Swept
+  ---------------------------------------------------
+  HOUSING                    0.00      0.00      0.00
+  
+  
+  ****************
+  Raingage Summary
+  ****************
+                                                      Data       Recording
+  Name                 Data Source                    Type       Interval 
+  ------------------------------------------------------------------------
+  GAGE1                RainSeries1                    CUMULATIVE   5 min.
+  
+  
+  ********************
+  Subcatchment Summary
+  ********************
+  Name                       Area     Width   %Imperv    %Slope Rain Gage            Outlet              
+  -----------------------------------------------------------------------------------------------------------
+  80                         1.00    600.00     50.00    1.0000 GAGE1                P009                
+  85                         1.00    600.00    100.00    1.0000 GAGE1                P005                
+  90                         1.00    600.00    100.00    1.0000 GAGE1                P001                
+  95                         1.00    600.00     50.00    1.0000 GAGE1                P011                
+
+
+  *******************
+  LID Control Summary
+  *******************
+                                   No. of        Unit        Unit      % Area    % Imperv
+  Subcatchment     LID Control      Units        Area       Width     Covered     Treated
+  ---------------------------------------------------------------------------------------
+  95               RB                   1        2.00        0.00        0.02        0.00
+  
+  
+  ************
+  Node Summary
+  ************
+                                           Invert      Max.    Ponded    External
+  Name                 Type                 Elev.     Depth      Area    Inflow  
+  -------------------------------------------------------------------------------
+  P001                 JUNCTION              1.10     20.00       0.0
+  P009                 JUNCTION              3.60     20.00       0.0    Yes
+  P011                 JUNCTION              2.89     20.00       0.0    Yes
+  Outlet               OUTFALL               0.00      4.00       0.0
+  P005                 STORAGE               1.58     20.00       0.0
+  
+  
+  ************
+  Link Summary
+  ************
+  Name             From Node        To Node          Type            Length    %Slope Roughness
+  ---------------------------------------------------------------------------------------------
+  P001             P001             Outlet           CONDUIT          220.0    0.5000    0.0150
+  P005             P005             P001             CONDUIT          240.0    0.2000    0.0150
+  P009             P009             P005             CONDUIT          505.0    0.4000    0.0240
+  P011             P011             P005             CONDUIT          655.0    0.2000    0.0240
+  6                P009             P011             WEIR        
+  
+  
+  *********************
+  Cross Section Summary
+  *********************
+                                        Full     Full     Hyd.     Max.   No. of     Full
+  Conduit          Shape               Depth     Area     Rad.    Width  Barrels     Flow
+  ---------------------------------------------------------------------------------------
+  P001             CIRCULAR             4.00    12.57     1.00     4.00        1 59242.38
+  P005             CIRCULAR             3.00     7.07     0.75     3.00        1 17397.64
+  P009             CIRCULAR             2.25     3.98     0.56     2.25        1  7140.30
+  P011             CIRCULAR             2.50     4.91     0.63     2.50        1  6686.83
+  
+  
+  
+  **********************           Volume        Volume
+  Rainfall Dependent I/I        hectare-m      10^6 ltr
+  **********************        ---------     ---------
+  Sewershed Rainfall ......         0.049         0.486
+  RDII Produced ...........         0.015         0.146
+  RDII Ratio ..............         0.300
+  
+  
+  *********************************************************
+  NOTE: The summary statistics displayed in this report are
+  based on results found at every computational time step,  
+  not just on results from each reporting time step.
+  *********************************************************
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... LPS
+  Process Models:
+    Rainfall/Runoff ........ YES
+    RDII ................... YES
+    Snowmelt ............... NO
+    Groundwater ............ YES
+    Flow Routing ........... YES
+    Ponding Allowed ........ NO
+    Water Quality .......... YES
+  Infiltration Method ...... GREEN_AMPT
+  Flow Routing Method ...... DYNWAVE
+  Starting Date ............ 07/15/1977 00:00:00
+  Ending Date .............. 07/17/1977 06:00:00
+  Antecedent Dry Days ...... 7.0
+  Report Time Step ......... 00:01:00
+  Wet Time Step ............ 00:05:00
+  Dry Time Step ............ 00:05:00
+  Routing Time Step ........ 10.00 sec
+  Variable Time Step ....... YES
+  Maximum Trials ........... 20
+  Number of Threads ........ 1
+  Head Tolerance ........... 0.000100 m
+  
+  
+  *********************
+  Control Actions Taken
+  *********************
+
+  
+  **************************        Volume         Depth
+  Runoff Quantity Continuity     hectare-m            mm
+  **************************     ---------       -------
+  Total Precipitation ......         0.097        24.320
+  Evaporation Loss .........         0.001         0.168
+  Infiltration Loss ........         0.020         5.028
+  Surface Runoff ...........         0.080        20.088
+  Final Storage ............         0.000         0.000
+  Continuity Error (%) .....        -3.964
+  
+  
+  **************************           COD       TOT.SOL       TOT.NIT           TSS       O-PO4-P
+  Runoff Quality Continuity             kg            kg            kg            kg            kg
+  **************************    ----------    ----------    ----------    ----------    ----------
+  Initial Buildup ..........      1372.000      3629.971        34.015      3629.971        28.109
+  Surface Buildup ..........       191.996       555.555         9.237       555.555         8.432
+  Wet Deposition ...........         4.864         4.864         0.292         4.864         0.002
+  Sweeping Removal .........         0.000         0.000         0.000         0.000         0.000
+  Infiltration Loss ........         1.005         1.005         0.060         1.005         0.000
+  BMP Removal ..............         0.192         0.519         0.004         0.519         0.004
+  Surface Runoff ...........      1543.520      4156.197        35.738      4156.197        29.232
+  Remaining Buildup ........        24.301        32.827         7.751        32.827         7.307
+  Continuity Error (%) .....        -0.010        -0.004        -0.022        -0.004         0.000
+  
+  
+  **************************        Volume         Depth
+  Groundwater Continuity         hectare-m            mm
+  **************************     ---------       -------
+  Initial Storage ..........         5.000      4999.939
+  Infiltration .............         0.010        10.150
+  Upper Zone ET ............         0.000         0.339
+  Lower Zone ET ............         0.001         0.541
+  Deep Percolation .........         0.000         0.091
+  Groundwater Flow .........         0.551       551.092
+  Final Storage ............         4.457      4457.365
+  Continuity Error (%) .....         0.013
+  
+  
+  **************************        Volume        Volume
+  Flow Routing Continuity        hectare-m      10^6 ltr
+  **************************     ---------     ---------
+  Dry Weather Inflow .......         0.000         0.000
+  Wet Weather Inflow .......         0.080         0.804
+  Groundwater Inflow .......         0.551         5.511
+  RDII Inflow ..............         0.015         0.146
+  External Inflow ..........         0.000         0.000
+  External Outflow .........         0.632         6.321
+  Flooding Loss ............         0.000         0.000
+  Evaporation Loss .........         0.000         0.002
+  Exfiltration Loss ........         0.000         0.000
+  Initial Stored Volume ....         0.000         0.000
+  Final Stored Volume ......         0.015         0.147
+  Continuity Error (%) .....        -0.148
+  
+  
+  **************************           COD       TOT.SOL       TOT.NIT           TSS       O-PO4-P
+  Quality Routing Continuity            kg            kg            kg            kg            kg
+  **************************    ----------    ----------    ----------    ----------    ----------
+  Dry Weather Inflow .......         0.000         0.000         0.000         0.000         0.000
+  Wet Weather Inflow .......      1543.519      4156.196        35.738      4156.196        29.232
+  Groundwater Inflow .......       551.079         0.000         0.000         0.000         0.000
+  RDII Inflow ..............         0.000         0.000         0.000         0.000         0.000
+  External Inflow ..........         0.000         0.000         0.000         0.000         0.000
+  External Outflow .........      2070.289      4137.440        36.118      4137.440        29.152
+  Flooding Loss ............         0.000         0.000         0.000         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000         0.000         0.000         0.000
+  Mass Reacted .............         0.000         0.000         0.000         0.000         0.000
+  Initial Stored Mass ......         0.000         0.000         0.000         0.000         0.000
+  Final Stored Mass ........        14.426         0.000         0.000         0.000         0.000
+  Continuity Error (%) .....         0.472         0.451        -1.064         0.451         0.272
+  
+  
+  ***************************
+  Time-Step Critical Elements
+  ***************************
+  None
+  
+  
+  ********************************
+  Highest Flow Instability Indexes
+  ********************************
+  All links are stable.
+  
+  
+  *************************
+  Routing Time Step Summary
+  *************************
+  Minimum Time Step           :     9.50 sec
+  Average Time Step           :    10.00 sec
+  Maximum Time Step           :    10.00 sec
+  Percent in Steady State     :     0.00
+  Average Iterations per Step :     2.00
+  Percent Not Converging      :     0.00
+  
+  
+  ***************************
+  Subcatchment Runoff Summary
+  ***************************
+  
+  --------------------------------------------------------------------------------------------------------
+                            Total      Total      Total      Total      Total       Total     Peak  Runoff
+                           Precip      Runon       Evap      Infil     Runoff      Runoff   Runoff   Coeff
+  Subcatchment                 mm         mm         mm         mm         mm    10^6 ltr      LPS
+  --------------------------------------------------------------------------------------------------------
+  80                        24.32       0.00       0.12       9.96      14.92        0.15   210.80   0.614
+  85                        24.32       0.00       0.22       0.00      25.35        0.25   325.84   1.042
+  90                        24.32       0.00       0.22       0.00      25.35        0.25   325.84   1.042
+  95                        24.32       0.00       0.11      10.15      14.74        0.15   209.46   0.606
+  
+
+  ***********************
+  LID Performance Summary
+  ***********************
+
+  --------------------------------------------------------------------------------------------------------------------
+                                         Total      Evap     Infil   Surface    Drain    Initial     Final  Continuity
+                                        Inflow      Loss      Loss   Outflow   Outflow   Storage   Storage       Error
+  Subcatchment      LID Control             mm        mm        mm        mm        mm        mm        mm           %
+  --------------------------------------------------------------------------------------------------------------------
+  95                RB                   24.32      0.00      0.00     12.32     12.00      0.00      0.00        0.00
+  
+  *******************
+  Groundwater Summary
+  *******************
+  
+  -----------------------------------------------------------------------------------------------------
+                                            Total    Total  Maximum  Average  Average    Final    Final
+                          Total    Total    Lower  Lateral  Lateral    Upper    Water    Upper    Water
+                          Infil     Evap  Seepage  Outflow  Outflow   Moist.    Table   Moist.    Table
+  Subcatchment               mm       mm       mm       mm      LPS                 m                 m
+  -----------------------------------------------------------------------------------------------------
+  95                      10.15     0.88     0.09   551.35    43.93     0.30     8.44     0.30     7.29
+  
+  
+  ****************************
+  Subcatchment Washoff Summary
+  ****************************
+  
+  ------------------------------------------------------------------------------------------
+                                 COD       TOT.SOL       TOT.NIT           TSS       O-PO4-P
+  Subcatchment                    kg            kg            kg            kg            kg
+  ------------------------------------------------------------------------------------------
+  80                         385.670      1038.921         8.924      1038.921         7.314
+  85                         386.191      1039.442         8.947      1039.442         7.304
+  90                         386.191      1039.442         8.947      1039.442         7.304
+  95                         385.468      1038.393         8.920      1038.393         7.310
+  ------------------------------------------------------------------------------------------
+  System                    1543.520      4156.197        35.738      4156.197        29.232
+  
+  
+  ******************
+  Node Depth Summary
+  ******************
+  
+  ---------------------------------------------------------------------------------
+                                 Average  Maximum  Maximum  Time of Max    Reported
+                                   Depth    Depth      HGL   Occurrence   Max Depth
+  Node                 Type       Meters   Meters   Meters  days hr:min      Meters
+  ---------------------------------------------------------------------------------
+  P001                 JUNCTION     0.08     0.23     1.33     0  09:32        0.23
+  P009                 JUNCTION     0.04     0.13     3.73     0  09:31        0.13
+  P011                 JUNCTION     0.12     0.31     3.20     0  09:34        0.31
+  Outlet               OUTFALL      0.03     0.22     0.22     0  09:32        0.22
+  P005                 STORAGE      0.10     0.22     1.80     0  09:40        0.22
+  
+  
+  *******************
+  Node Inflow Summary
+  *******************
+  
+  -------------------------------------------------------------------------------------------------
+                                  Maximum  Maximum                  Lateral       Total        Flow
+                                  Lateral    Total  Time of Max      Inflow      Inflow     Balance
+                                   Inflow   Inflow   Occurrence      Volume      Volume       Error
+  Node                 Type           LPS      LPS  days hr:min    10^6 ltr    10^6 ltr     Percent
+  -------------------------------------------------------------------------------------------------
+  P001                 JUNCTION    325.84   451.12     0  09:30       0.253        6.33       0.109
+  P009                 JUNCTION    250.45   250.45     0  09:30        5.73        5.73      -0.014
+  P011                 JUNCTION    211.95   345.47     0  09:30        0.22        5.24       0.205
+  Outlet               OUTFALL       0.00   365.90     0  09:32           0        6.32       0.000
+  P005                 STORAGE     325.84   458.82     0  09:30       0.253         6.2       0.666
+  
+  
+  **********************
+  Node Surcharge Summary
+  **********************
+  
+  No nodes were surcharged.
+  
+  
+  *********************
+  Node Flooding Summary
+  *********************
+  
+  No nodes were flooded.
+  
+  
+  **********************
+  Storage Volume Summary
+  **********************
+  
+  --------------------------------------------------------------------------------------------------
+                         Average     Avg  Evap Exfil       Maximum     Max    Time of Max    Maximum
+                          Volume    Pcnt  Pcnt  Pcnt        Volume    Pcnt     Occurrence    Outflow
+  Storage Unit           1000 m3    Full  Loss  Loss       1000 m3    Full    days hr:min        LPS
+  --------------------------------------------------------------------------------------------------
+  P005                     0.100       1     0     0         0.216       1       0  09:40     171.06
+  
+  
+  ***********************
+  Outfall Loading Summary
+  ***********************
+  
+  ---------------------------------------------------------------------------------------------------------------------------------
+                         Flow       Avg       Max       Total         Total         Total         Total         Total         Total
+                         Freq      Flow      Flow      Volume           COD       TOT.SOL       TOT.NIT           TSS       O-PO4-P
+  Outfall Node           Pcnt       LPS       LPS    10^6 ltr            kg            kg            kg            kg            kg
+  ---------------------------------------------------------------------------------------------------------------------------------
+  Outlet                99.56     32.66    365.90       6.321      2070.297      4137.440        36.118      4137.440        29.152
+  ---------------------------------------------------------------------------------------------------------------------------------
+  System                99.56     32.66    365.90       6.321      2070.297      4137.440        36.118      4137.440        29.152
+  
+  
+  ********************
+  Link Flow Summary
+  ********************
+  
+  -----------------------------------------------------------------------------
+                                 Maximum  Time of Max   Maximum    Max/    Max/
+                                  |Flow|   Occurrence   |Veloc|    Full    Full
+  Link                 Type          LPS  days hr:min     m/sec    Flow   Depth
+  -----------------------------------------------------------------------------
+  P001                 CONDUIT    365.90     0  09:32      1.32    0.01    0.06
+  P005                 CONDUIT    171.05     0  09:34      0.83    0.01    0.07
+  P009                 CONDUIT     45.90     0  09:31      0.36    0.01    0.07
+  P011                 CONDUIT    156.68     0  09:35      0.58    0.02    0.10
+  6                    WEIR       153.87     0  09:31                      0.13
+  
+  
+  ***************************
+  Flow Classification Summary
+  ***************************
+  
+  -------------------------------------------------------------------------------------
+                      Adjusted    ---------- Fraction of Time in Flow Class ---------- 
+                       /Actual         Up    Down  Sub   Sup   Up    Down  Norm  Inlet 
+  Conduit               Length    Dry  Dry   Dry   Crit  Crit  Crit  Crit  Ltd   Ctrl  
+  -------------------------------------------------------------------------------------
+  P001                    1.00   0.00  0.00  0.00  0.02  0.98  0.00  0.00  0.00  0.00
+  P005                    1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  P009                    1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.98  0.00
+  P011                    1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.02  0.00
+  
+  
+  *************************
+  Conduit Surcharge Summary
+  *************************
+  
+  No conduits were surcharged.
+  
+  
+  ***************************
+  Link Pollutant Load Summary
+  ***************************
+  
+  ------------------------------------------------------------------------------------------
+                                 COD       TOT.SOL       TOT.NIT           TSS       O-PO4-P
+  Link                            kg            kg            kg            kg            kg
+  ------------------------------------------------------------------------------------------
+  P001                      2070.297      4137.440        36.118      4137.440        29.152
+  P005                      1689.672      3110.710        27.230      3110.710        21.938
+  P009                       147.115       217.859         1.942       217.859         1.521
+  P011                      1207.739      1959.312        17.238      1959.312        13.856
+  6                          800.189       852.570         7.353       852.570         6.019
+  
+
+  Analysis begun on:  Wed Jan 02 08:33:45 2019
+  Analysis ended on:  Wed Jan 02 08:33:46 2019
+  Total elapsed time: 00:00:01

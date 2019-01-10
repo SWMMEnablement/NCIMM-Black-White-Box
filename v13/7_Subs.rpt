@@ -1,0 +1,175 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.013)
+  --------------------------------------------------------------
+
+  WARNING 04: minimum elevation drop used for Conduit D6S-20DES
+  WARNING 02: maximum depth increased for Node D6S-5
+  
+  *************
+  Element Count
+  *************
+  Number of rain gages ...... 1
+  Number of subcatchments ... 7
+  Number of nodes ........... 31
+  Number of links ........... 33
+  Number of pollutants ...... 0
+  Number of land uses ....... 0
+  
+  
+  ****************
+  Raingage Summary
+  ****************
+                                                      Data       Recording
+  Name                 Data Source                    Type       Interval 
+  ------------------------------------------------------------------------
+  1010                 C:\Proyectos\PM-24~Coquimbo-LaSerena\Lluvia\La~Serena~DGA-T10.rin
+  
+  
+  ********************
+  Subcatchment Summary
+  ********************
+  Name                       Area     Width   %Imperv    %Slope Rain Gage            Outlet              
+  -----------------------------------------------------------------------------------------------------------
+  QPE-9#1                   19.30      1.00      0.00  100.0000 1010                 QPE-9               
+  QPE-10#1                  12.41      1.00      0.00  100.0000 1010                 QPE-10              
+  QPE-10#2                  14.97      1.00      0.00  100.0000 1010                 QPE-10              
+  D6S-5#1                   42.48      1.00      0.00  100.0000 1010                 D6S-5               
+  D6S-7#1                   49.44      1.00      0.00  100.0000 1010                 D6S-7               
+  D6S-7#2                   42.57      1.00      0.00  100.0000 1010                 D6S-7               
+  D6S-20#1                  37.50      1.00      0.00  100.0000 1010                 D6S-20              
+  
+  
+  ************
+  Node Summary
+  ************
+                                           Invert      Max.    Ponded    External
+  Name                 Type                 Elev.     Depth      Area    Inflow  
+  -------------------------------------------------------------------------------
+  QPE-9                JUNCTION             30.69     39.83       0.0    Yes
+  QPE-10               JUNCTION             21.65      2.79       0.0    Yes
+  D6S-2                JUNCTION             20.69      2.20       0.0    Yes
+  D6S-3                JUNCTION             17.12      3.42       0.0
+  D6S-4                JUNCTION             13.50      3.20       0.0
+  D6S-5                JUNCTION              5.53      3.51       0.0    Yes
+  D6S-6                JUNCTION              4.30      2.20       0.0
+  D6S-7                JUNCTION              3.69      4.96       0.0
+  D6S-8                JUNCTION              3.59      5.06       0.0
+  D6S-9                JUNCTION              3.53      4.96       0.0
+  D6S-10               JUNCTION              3.51      4.79       0.0
+  D6S-11               JUNCTION              3.46      3.51       0.0
+  D6S-12               JUNCTION              3.41      3.56       0.0
+  D6S-14               JUNCTION              3.35      2.50       0.0
+  D6S-15               JUNCTION              3.15      2.50       0.0
+  D6S-16               JUNCTION              3.11      2.50       0.0
+  D6S-17               JUNCTION              1.72      3.14       0.0
+  D6S-18               JUNCTION              0.99      4.53       0.0
+  D6S-19               JUNCTION              0.90      3.68       0.0
+  D6S-20               JUNCTION              0.61      2.38       0.0
+  QPE-9A               JUNCTION             23.30      1.80       0.0
+  D6S-2A               JUNCTION             19.55      3.27       0.0
+  D6S-2B               JUNCTION             18.41      3.27       0.0
+  D6S-3A               JUNCTION             15.91      3.20       0.0
+  D6S-3B               JUNCTION             14.70      3.20       0.0
+  D6S-4A               JUNCTION             12.20      3.37       0.0
+  D6S-4B               JUNCTION             10.89      3.37       0.0
+  D6S-4C               JUNCTION              9.59      3.37       0.0
+  D6S-4D               JUNCTION              8.28      3.37       0.0
+  D6S-4E               JUNCTION              6.98      3.37       0.0
+  D6S-DES              OUTFALL               0.61      2.20       0.0
+  
+  
+  ************
+  Link Summary
+  ************
+  Name             From Node        To Node          Type            Length    %Slope Roughness
+  ---------------------------------------------------------------------------------------------
+  D6S-0102         QPE-10           D6S-2            CONDUIT           19.4    2.5008    0.0150
+  1364.1           D6S-7            D6S-8            CONDUIT            5.3    1.8979    0.0150
+  1364.2           D6S-7            D6S-8            CONDUIT            5.3    1.8979    0.0150
+  D6S-0910         D6S-9            D6S-10           CONDUIT           19.8    0.1012    0.0150
+  1366.1           D6S-18           D6S-19           CONDUIT            8.2    1.0001    0.0150
+  1366.2           D6S-18           D6S-19           CONDUIT            8.2    1.0001    0.0200
+  1455.1           QPE-9            QPE-9A           CONDUIT          410.0    1.8027    0.0200
+  1455.2           QPE-9            QPE-9A           CONDUIT          410.0    1.8027    0.0200
+  D6S-20DES        D6S-20           D6S-DES          CONDUIT          201.5    0.0002    0.0300
+  D6S-1920         D6S-19           D6S-20           CONDUIT           29.3    1.0001    0.0300
+  D6S-1718         D6S-17           D6S-18           CONDUIT           73.2    1.0001    0.0300
+  D6S-0506         D6S-5            D6S-6            CONDUIT          411.1    0.2992    0.0300
+  D6S-0607         D6S-6            D6S-7            CONDUIT          243.4    0.2506    0.0300
+  D6S-1011         D6S-10           D6S-11           CONDUIT            9.1    0.5000    0.0300
+  D6S-1112         D6S-11           D6S-12           CONDUIT           10.8    0.5000    0.0300
+  D6S-1213         D6S-12           D6S-14           CONDUIT           11.7    0.5000    0.0300
+  D6S-1415         D6S-14           D6S-15           CONDUIT           20.0    1.0001    0.0300
+  D6S-1516         D6S-15           D6S-16           CONDUIT            4.3    1.0001    0.0300
+  D6S-1617         D6S-16           D6S-17           CONDUIT          196.4    0.7086    0.0300
+  D6S-0809         D6S-8            D6S-9            CONDUIT           17.1    0.3511    0.0300
+  QPE-09A10        QPE-9A           QPE-10           CONDUIT          165.0    1.0001    0.0150
+  D6S-2A2B         D6S-2A           D6S-2B           CONDUIT           35.0    0.2000    0.0300
+  D6S-2B3          D6S-2B           D6S-3            CONDUIT           35.0    0.2000    0.0300
+  D6S-22A          D6S-2            D6S-2A           CONDUIT           35.0    0.2000    0.0300
+  D6S-3A3B         D6S-3A           D6S-3B           CONDUIT          103.0    0.2000    0.0300
+  D6S-33A          D6S-3            D6S-3A           CONDUIT          103.0    0.2000    0.0300
+  D6S-3B4          D6S-3B           D6S-4            CONDUIT          103.0    0.2000    0.0300
+  D6S-44A          D6S-4            D6S-4A           CONDUIT           68.0    0.2000    0.0300
+  D6S-4A4B         D6S-4A           D6S-4B           CONDUIT           68.0    0.2000    0.0300
+  D6S-4B4C         D6S-4B           D6S-4C           CONDUIT           68.0    0.2000    0.0300
+  D6S-4C4D         D6S-4C           D6S-4D           CONDUIT           68.0    0.2000    0.0300
+  D6S-4D4E         D6S-4D           D6S-4E           CONDUIT           68.0    0.2000    0.0300
+  D6S-4E5          D6S-4E           D6S-5            CONDUIT           68.0    0.2000    0.0300
+  
+  
+  *********************
+  Cross Section Summary
+  *********************
+                                        Full     Full     Hyd.     Max.   No. of     Full
+  Conduit          Shape               Depth     Area     Rad.    Width  Barrels     Flow
+  ---------------------------------------------------------------------------------------
+  D6S-0102         RECT_CLOSED          1.25     7.50     0.52     6.00        1    50.96
+  1364.1           RECT_CLOSED          2.20     6.60     0.63     3.00        1    44.77
+  1364.2           RECT_CLOSED          2.20     6.60     0.63     3.00        1    44.77
+  D6S-0910         RECT_CLOSED          2.20    13.20     0.80     6.00        2    24.22
+  1366.1           RECT_CLOSED          2.20     7.70     0.68     3.50        1    39.53
+  1366.2           RECT_CLOSED          2.20     7.70     0.68     3.50        1    29.64
+  1455.1           RECT_CLOSED          1.25     3.12     0.42     2.50        1    11.71
+  1455.2           RECT_CLOSED          1.25     3.12     0.42     2.50        1    11.71
+  D6S-20DES        TRAPEZOIDAL          2.20    17.82     1.50     9.20        1     0.96
+  D6S-1920         TRAPEZOIDAL          2.20    17.82     1.50     9.20        1    77.68
+  D6S-1718         TRAPEZOIDAL          2.20    17.82     1.50     9.20        1    77.68
+  D6S-0506         TRAPEZOIDAL          2.20    15.62     1.43     8.20        1    36.16
+  D6S-0607         TRAPEZOIDAL          2.20    15.62     1.43     8.20        1    33.10
+  D6S-1011         TRAPEZOIDAL          2.20    17.82     1.50     9.20        1    54.93
+  D6S-1112         TRAPEZOIDAL          2.20    17.82     1.50     9.20        1    54.93
+  D6S-1213         TRAPEZOIDAL          2.20    17.82     1.50     9.20        1    54.93
+  D6S-1415         TRAPEZOIDAL          2.20    17.82     1.50     9.20        1    77.68
+  D6S-1516         TRAPEZOIDAL          2.20    17.82     1.50     9.20        1    77.68
+  D6S-1617         TRAPEZOIDAL          2.20    17.82     1.50     9.20        1    65.39
+  D6S-0809         TRAPEZOIDAL          2.20    15.62     1.43     8.20        1    39.17
+  QPE-09A10        TRAPEZOIDAL          1.80     7.02     1.00     4.80        1    46.79
+  D6S-2A2B         TRAPEZOIDAL          2.20    11.22     1.26     6.20        1    19.49
+  D6S-2B3          TRAPEZOIDAL          2.20    11.22     1.26     6.20        1    19.49
+  D6S-22A          TRAPEZOIDAL          2.20    11.22     1.26     6.20        1    19.49
+  D6S-3A3B         TRAPEZOIDAL          2.20    11.22     1.26     6.20        1    19.49
+  D6S-33A          TRAPEZOIDAL          2.20    11.22     1.26     6.20        1    19.49
+  D6S-3B4          TRAPEZOIDAL          2.20    11.22     1.26     6.20        1    19.49
+  D6S-44A          TRAPEZOIDAL          2.20    11.22     1.26     6.20        1    19.49
+  D6S-4A4B         TRAPEZOIDAL          2.20    11.22     1.26     6.20        1    19.49
+  D6S-4B4C         TRAPEZOIDAL          2.20    11.22     1.26     6.20        1    19.49
+  D6S-4C4D         TRAPEZOIDAL          2.20    11.22     1.26     6.20        1    19.49
+  D6S-4D4E         TRAPEZOIDAL          2.20    11.22     1.26     6.20        1    19.49
+  D6S-4E5          TRAPEZOIDAL          2.20    11.22     1.26     6.20        1    19.49
+  
+  
+  
+  *********************
+  Rainfall File Summary
+  *********************
+  Station    First        Last         Recording   Periods    Periods    Periods
+  ID         Date         Date         Frequency  w/Precip    Missing    Malfunc.
+  -------------------------------------------------------------------------------
+
+  
+  ERROR 317: cannot open rainfall data file C:\Proyectos\PM-24~Coquimbo-LaSerena\Lluvia\La~Serena~DGA-T10.rin.
+
+  Analysis begun on:  Wed Jan 02 10:13:06 2019
+  Analysis ended on:  Wed Jan 02 10:13:06 2019
+  Total elapsed time: < 1 sec

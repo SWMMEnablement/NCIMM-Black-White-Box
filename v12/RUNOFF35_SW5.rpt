@@ -1,0 +1,232 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+   SW 1 9 8 
+  
+  
+  *************
+  Element Count
+  *************
+  Number of rain gages ...... 1
+  Number of subcatchments ... 1
+  Number of nodes ........... 4
+  Number of links ........... 3
+  Number of pollutants ...... 0
+  Number of land uses ....... 0
+  
+  
+  ****************
+  Raingage Summary
+  ****************
+                                                      Data       Recording
+  Name                 Data Source                    Type       Interval 
+  ------------------------------------------------------------------------
+  GAGE1                RainSeries1                    INTENSITY    5 min.
+  
+  
+  ********************
+  Subcatchment Summary
+  ********************
+  Name                       Area     Width   %Imperv    %Slope Rain Gage            Outlet              
+  -----------------------------------------------------------------------------------------------------------
+  501                       25.00    997.00     40.00    2.0000 GAGE1                401                 
+  
+  
+  ************
+  Node Summary
+  ************
+                                           Invert      Max.    Ponded    External
+  Name                 Type                 Elev.     Depth      Area    Inflow  
+  -------------------------------------------------------------------------------
+  401                  JUNCTION              1.18     20.00       0.0
+  301                  JUNCTION              0.78     20.00       0.0
+  201                  JUNCTION              0.39     20.00       0.0
+  101                  OUTFALL               0.00      6.00       0.0
+  
+  
+  ************
+  Link Summary
+  ************
+  Name             From Node        To Node          Type            Length    %Slope Roughness
+  ---------------------------------------------------------------------------------------------
+  401              401              301              CONDUIT          560.0    0.0714    0.0100
+  301              301              201              CONDUIT          560.0    0.0696    0.0100
+  201              201              101              CONDUIT          560.0    0.0696    0.0100
+  
+  
+  *********************
+  Cross Section Summary
+  *********************
+                                        Full     Full     Hyd.     Max.   No. of     Full
+  Conduit          Shape               Depth     Area     Rad.    Width  Barrels     Flow
+  ---------------------------------------------------------------------------------------
+  401              CIRCULAR             6.00    28.27     1.50     6.00        1   147.14
+  301              CIRCULAR             6.00    28.27     1.50     6.00        1   145.29
+  201              CIRCULAR             6.00    28.27     1.50     6.00        1   145.29
+  
+  
+  
+  *********************************************************
+  NOTE: The summary statistics displayed in this report are
+  based on results found at every computational time step,  
+  not just on results from each reporting time step.
+  *********************************************************
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... CFS
+  Process Models:
+    Rainfall/Runoff ........ YES
+    RDII ................... NO
+    Snowmelt ............... NO
+    Groundwater ............ NO
+    Flow Routing ........... YES
+    Ponding Allowed ........ NO
+    Water Quality .......... NO
+  Infiltration Method ...... HORTON
+  Flow Routing Method ...... KINWAVE
+  Starting Date ............ 05/23/1985 12:00:00
+  Ending Date .............. 05/23/1985 15:00:00
+  Antecedent Dry Days ...... 0.0
+  Report Time Step ......... 00:15:00
+  Wet Time Step ............ 00:05:00
+  Dry Time Step ............ 23:00:00
+  Routing Time Step ........ 30.00 sec
+  
+  
+  **************************        Volume         Depth
+  Runoff Quantity Continuity     acre-feet        inches
+  **************************     ---------       -------
+  Total Precipitation ......        30.382        14.583
+  Evaporation Loss .........         0.025         0.012
+  Infiltration Loss ........         1.966         0.944
+  Surface Runoff ...........        27.629        13.262
+  Final Storage ............         0.963         0.462
+  Continuity Error (%) .....        -0.664
+  
+  
+  **************************        Volume        Volume
+  Flow Routing Continuity        acre-feet      10^6 gal
+  **************************     ---------     ---------
+  Dry Weather Inflow .......         0.000         0.000
+  Wet Weather Inflow .......        27.444         8.943
+  Groundwater Inflow .......         0.000         0.000
+  RDII Inflow ..............         0.000         0.000
+  External Inflow ..........         0.000         0.000
+  External Outflow .........        26.851         8.750
+  Flooding Loss ............         0.000         0.000
+  Evaporation Loss .........         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000
+  Initial Stored Volume ....         0.000         0.000
+  Final Stored Volume ......         0.593         0.193
+  Continuity Error (%) .....         0.001
+  
+  
+  ********************************
+  Highest Flow Instability Indexes
+  ********************************
+  Link 301 (1)
+  Link 201 (1)
+  
+  
+  *************************
+  Routing Time Step Summary
+  *************************
+  Minimum Time Step           :    30.00 sec
+  Average Time Step           :    30.00 sec
+  Maximum Time Step           :    30.00 sec
+  Percent in Steady State     :     0.00
+  Average Iterations per Step :     1.70
+  Percent Not Converging      :     0.00
+  
+  
+  ***************************
+  Subcatchment Runoff Summary
+  ***************************
+  
+  --------------------------------------------------------------------------------------------------------
+                            Total      Total      Total      Total      Total       Total     Peak  Runoff
+                           Precip      Runon       Evap      Infil     Runoff      Runoff   Runoff   Coeff
+  Subcatchment                 in         in         in         in         in    10^6 gal      CFS
+  --------------------------------------------------------------------------------------------------------
+  501                       14.58       0.00       0.01       0.94      13.26        9.00   121.40   0.909
+  
+  
+  ******************
+  Node Depth Summary
+  ******************
+  
+  ---------------------------------------------------------------------------------
+                                 Average  Maximum  Maximum  Time of Max    Reported
+                                   Depth    Depth      HGL   Occurrence   Max Depth
+  Node                 Type         Feet     Feet     Feet  days hr:min        Feet
+  ---------------------------------------------------------------------------------
+  401                  JUNCTION     3.88     4.16     5.34     0  02:55        4.16
+  301                  JUNCTION     3.89     4.24     5.02     0  02:56        4.20
+  201                  JUNCTION     3.86     4.23     4.62     0  02:57        4.20
+  101                  OUTFALL      3.82     4.22     4.22     0  02:57        4.20
+  
+  
+  *******************
+  Node Inflow Summary
+  *******************
+  
+  -------------------------------------------------------------------------------------------------
+                                  Maximum  Maximum                  Lateral       Total        Flow
+                                  Lateral    Total  Time of Max      Inflow      Inflow     Balance
+                                   Inflow   Inflow   Occurrence      Volume      Volume       Error
+  Node                 Type           CFS      CFS  days hr:min    10^6 gal    10^6 gal     Percent
+  -------------------------------------------------------------------------------------------------
+  401                  JUNCTION    121.40   121.40     0  02:55        8.95        8.94       0.000
+  301                  JUNCTION      0.00   123.02     0  02:56           0        8.89       0.000
+  201                  JUNCTION      0.00   122.60     0  02:57           0        8.82       0.000
+  101                  OUTFALL       0.00   122.49     0  02:57           0        8.75       0.000
+  
+  
+  *********************
+  Node Flooding Summary
+  *********************
+  
+  No nodes were flooded.
+  
+  
+  ***********************
+  Outfall Loading Summary
+  ***********************
+  
+  -----------------------------------------------------------
+                         Flow       Avg       Max       Total
+                         Freq      Flow      Flow      Volume
+  Outfall Node           Pcnt       CFS       CFS    10^6 gal
+  -----------------------------------------------------------
+  101                   96.67    112.19    122.49       8.749
+  -----------------------------------------------------------
+  System                96.67    112.19    122.49       8.749
+  
+  
+  ********************
+  Link Flow Summary
+  ********************
+  
+  -----------------------------------------------------------------------------
+                                 Maximum  Time of Max   Maximum    Max/    Max/
+                                  |Flow|   Occurrence   |Veloc|    Full    Full
+  Link                 Type          CFS  days hr:min    ft/sec    Flow   Depth
+  -----------------------------------------------------------------------------
+  401                  CONDUIT    123.02     0  02:56      6.12    0.84    0.69
+  301                  CONDUIT    122.60     0  02:57      6.03    0.84    0.70
+  201                  CONDUIT    122.49     0  02:57      6.00    0.84    0.70
+  
+  
+  *************************
+  Conduit Surcharge Summary
+  *************************
+  
+  No conduits were surcharged.
+  
+
+  Analysis begun on:  Wed Jan 02 08:33:47 2019
+  Analysis ended on:  Wed Jan 02 08:33:47 2019
+  Total elapsed time: < 1 sec

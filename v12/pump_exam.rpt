@@ -1,0 +1,452 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+  WARNING 04: minimum elevation drop used for Conduit CDT-17
+  WARNING 04: minimum elevation drop used for Conduit CDT-21
+  WARNING 04: minimum elevation drop used for Conduit SPI23800100
+  WARNING 04: minimum elevation drop used for Conduit SPI23800200
+  WARNING 04: minimum elevation drop used for Conduit SPI23900000
+  WARNING 04: minimum elevation drop used for Conduit SPI23900100
+  WARNING 04: minimum elevation drop used for Conduit SPI23900200
+  WARNING 04: minimum elevation drop used for Conduit SPI23900300
+  WARNING 04: minimum elevation drop used for Conduit SPI23900400
+  WARNING 04: minimum elevation drop used for Conduit SPI23900500
+  WARNING 04: minimum elevation drop used for Conduit SPI23900600
+  WARNING 04: minimum elevation drop used for Conduit SPI23900700
+  WARNING 04: minimum elevation drop used for Conduit SPI23900800
+  WARNING 04: minimum elevation drop used for Conduit SPI23900900
+  WARNING 04: minimum elevation drop used for Conduit SPI23901000
+  WARNING 04: minimum elevation drop used for Conduit SPI23901100
+  WARNING 04: minimum elevation drop used for Conduit SPI23901200
+  WARNING 04: minimum elevation drop used for Conduit SPI23901500
+  WARNING 04: minimum elevation drop used for Conduit SPI23901600
+  WARNING 04: minimum elevation drop used for Conduit SPI23901700
+  WARNING 04: minimum elevation drop used for Conduit SPI23901800
+  WARNING 04: minimum elevation drop used for Conduit SPI24000400
+  WARNING 04: minimum elevation drop used for Conduit SPI24000500
+  WARNING 04: minimum elevation drop used for Conduit SPI24000600
+  WARNING 04: minimum elevation drop used for Conduit SPI24100500
+  WARNING 04: minimum elevation drop used for Conduit SPI24100600
+  WARNING 04: minimum elevation drop used for Conduit SPI24100800
+  WARNING 04: minimum elevation drop used for Conduit SPI24101300
+  WARNING 04: minimum elevation drop used for Conduit SPI24101400
+  WARNING 04: minimum elevation drop used for Conduit SPI24101500
+  WARNING 04: minimum elevation drop used for Conduit SPI24108000
+  WARNING 02: maximum depth increased for Node JCT-18
+  WARNING 02: maximum depth increased for Node SFT23800100
+  WARNING 02: maximum depth increased for Node SFT23800200
+  WARNING 02: maximum depth increased for Node SFT23901000
+  WARNING 02: maximum depth increased for Node SFT23901100
+  WARNING 02: maximum depth increased for Node SFT24000500
+  WARNING 02: maximum depth increased for Node SFT24000600
+  WARNING 02: maximum depth increased for Node SFT24100500
+  WARNING 02: maximum depth increased for Node SFT24101300
+  
+  *********************************************************
+  NOTE: The summary statistics displayed in this report are
+  based on results found at every computational time step,  
+  not just on results from each reporting time step.
+  *********************************************************
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... GPM
+  Process Models:
+    Rainfall/Runoff ........ NO
+    RDII ................... NO
+    Snowmelt ............... NO
+    Groundwater ............ NO
+    Flow Routing ........... YES
+    Ponding Allowed ........ NO
+    Water Quality .......... NO
+  Flow Routing Method ...... DYNWAVE
+  Starting Date ............ 01/01/2002 00:00:00
+  Ending Date .............. 01/04/2002 00:00:00
+  Antecedent Dry Days ...... 5.0
+  Report Time Step ......... 00:01:00
+  Routing Time Step ........ 0.50 sec
+  Variable Time Step ....... YES
+  Maximum Trials ........... 8
+  Number of Threads ........ 1
+  Head Tolerance ........... 0.005000 ft
+  
+  
+  **************************        Volume        Volume
+  Flow Routing Continuity        acre-feet      10^6 gal
+  **************************     ---------     ---------
+  Dry Weather Inflow .......         0.000         0.000
+  Wet Weather Inflow .......         0.000         0.000
+  Groundwater Inflow .......         0.000         0.000
+  RDII Inflow ..............         0.000         0.000
+  External Inflow ..........         0.345         0.112
+  External Outflow .........         0.243         0.079
+  Flooding Loss ............         0.001         0.000
+  Evaporation Loss .........         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000
+  Initial Stored Volume ....         0.003         0.001
+  Final Stored Volume ......         0.095         0.031
+  Continuity Error (%) .....         2.315
+  
+  
+  *************************
+  Highest Continuity Errors
+  *************************
+  Node SFT24101400 (4.36%)
+  Node SFT24101500 (3.73%)
+  Node SFT24108000 (2.29%)
+  Node SFT24000400 (1.32%)
+  
+  
+  ***************************
+  Time-Step Critical Elements
+  ***************************
+  None
+  
+  
+  ********************************
+  Highest Flow Instability Indexes
+  ********************************
+  Link SPI24100600 (48)
+  Link SPI24100800 (45)
+  Link SPI24101300 (42)
+  Link CDT-21 (38)
+  Link SPI24000500 (36)
+  
+  
+  *************************
+  Routing Time Step Summary
+  *************************
+  Minimum Time Step           :     0.50 sec
+  Average Time Step           :     0.50 sec
+  Maximum Time Step           :     0.50 sec
+  Percent in Steady State     :     0.00
+  Average Iterations per Step :     6.62
+  Percent Not Converging      :    59.71
+  
+  
+  ******************
+  Node Depth Summary
+  ******************
+  
+  ---------------------------------------------------------------------------------
+                                 Average  Maximum  Maximum  Time of Max    Reported
+                                   Depth    Depth      HGL   Occurrence   Max Depth
+  Node                 Type         Feet     Feet     Feet  days hr:min        Feet
+  ---------------------------------------------------------------------------------
+  JCT-18               JUNCTION    95.84   127.52   136.52     0  11:58      127.29
+  JCT-22               JUNCTION     5.08     5.09     7.44     0  00:24        5.09
+  SFT23800100          JUNCTION   103.95   160.61   169.61     0  00:00      103.99
+  SFT23800200          JUNCTION   103.95   201.33   210.33     0  00:00      104.10
+  SFT23900000          JUNCTION   105.88   126.44   135.44     0  11:58      126.18
+  SFT23900100          JUNCTION   104.50   118.69   127.69     0  00:17      118.48
+  SFT23900200          JUNCTION   104.59   119.12   128.12     0  00:17      118.95
+  SFT23900300          JUNCTION   104.92   120.85   129.85     0  00:17      120.61
+  SFT23900400          JUNCTION   104.98   121.23   130.23     0  00:17      120.93
+  SFT23900500          JUNCTION   105.10   121.90   130.90     0  00:17      121.51
+  SFT23900600          JUNCTION   105.17   122.31   131.31     0  00:17      121.85
+  SFT23900700          JUNCTION   105.67   125.05   134.05     0  00:17      124.22
+  SFT23900800          JUNCTION   105.86   126.32   135.32     0  11:58      126.06
+  SFT23900900          JUNCTION   105.87   126.40   135.40     0  11:58      126.13
+  SFT23901000          JUNCTION   106.00   126.99   135.99     0  11:58      126.74
+  SFT23901100          JUNCTION   106.06   127.25   136.25     0  11:58      127.01
+  SFT23901200          JUNCTION   105.21   122.50   131.50     0  00:17      122.01
+  SFT23901500          JUNCTION   104.48   118.59   127.59     0  00:17      118.38
+  SFT23901600          JUNCTION   104.47   118.55   127.55     0  00:17      118.34
+  SFT23901700          JUNCTION   104.47   118.50   127.50     0  00:17      118.30
+  SFT23901800          JUNCTION   104.46   118.44   127.44     0  00:17      118.25
+  SFT24000400          JUNCTION   103.82   201.00   210.00     0  00:09      112.89
+  SFT24000500          JUNCTION   103.82   200.83   209.83     0  00:09      112.96
+  SFT24000600          JUNCTION   103.82   200.83   209.83     0  00:09      112.94
+  SFT24100500          JUNCTION   103.94   165.31   174.31     0  00:00      104.33
+  SFT24100600          JUNCTION   103.94   167.16   176.16     0  00:00      104.35
+  SFT24100700          JUNCTION   103.94   168.28   177.28     0  00:00      104.39
+  SFT24100800          JUNCTION   103.94   167.38   176.38     0  00:00      104.44
+  SFT24101300          JUNCTION   103.95   191.35   200.35     0  00:00      104.15
+  SFT24101400          JUNCTION   103.85   201.00   210.00     0  00:04      160.01
+  SFT24101500          JUNCTION   103.82   201.00   210.00     0  00:08      201.00
+  SFT24108000          JUNCTION   103.92   201.00   210.00     0  00:01      115.43
+  JCT-20               OUTFALL    103.95   103.95   112.95     0  00:00      103.95
+  29A                  STORAGE      2.62     3.75     6.00     1  09:37        3.75
+  
+  
+  *******************
+  Node Inflow Summary
+  *******************
+  
+  -------------------------------------------------------------------------------------------------
+                                  Maximum  Maximum                  Lateral       Total        Flow
+                                  Lateral    Total  Time of Max      Inflow      Inflow     Balance
+                                   Inflow   Inflow   Occurrence      Volume      Volume       Error
+  Node                 Type           GPM      GPM  days hr:min    10^6 gal    10^6 gal     Percent
+  -------------------------------------------------------------------------------------------------
+  JCT-18               JUNCTION      0.00   750.00     0  00:00           0       0.112      -0.123
+  JCT-22               JUNCTION     26.00    26.00     0  00:00       0.112       0.112       0.430
+  SFT23800100          JUNCTION      0.00 43484.43     0  00:00           0       0.209       0.317
+  SFT23800200          JUNCTION      0.00 29981.08     0  00:00           0       0.208       0.340
+  SFT23900000          JUNCTION      0.00   967.94     0  00:00           0       0.121      -0.008
+  SFT23900100          JUNCTION      0.00   918.18     0  00:11           0       0.145       0.115
+  SFT23900200          JUNCTION      0.00   794.19     0  00:11           0       0.144       0.347
+  SFT23900300          JUNCTION      0.00   665.38     0  00:13           0       0.143       0.326
+  SFT23900400          JUNCTION      0.00   664.74     0  00:13           0       0.142       0.168
+  SFT23900500          JUNCTION      0.00   638.11     0  00:13           0       0.141       0.170
+  SFT23900600          JUNCTION      0.00   620.42     0  00:14           0        0.14       0.108
+  SFT23900700          JUNCTION      0.00   507.54     0  00:16           0       0.138       0.491
+  SFT23900800          JUNCTION      0.00   785.27     0  00:00           0       0.136       0.136
+  SFT23900900          JUNCTION      0.00   776.14     0  00:00           0       0.129      -0.063
+  SFT23901000          JUNCTION      0.00   915.80     0  00:00           0       0.117       0.022
+  SFT23901100          JUNCTION      0.00   806.43     0  00:00           0       0.114      -0.084
+  SFT23901200          JUNCTION      0.00   607.97     0  00:15           0       0.139       0.423
+  SFT23901500          JUNCTION      0.00   978.62     0  00:11           0       0.147       0.045
+  SFT23901600          JUNCTION      0.00   924.87     0  00:11           0       0.153       0.032
+  SFT23901700          JUNCTION      0.00   865.28     0  00:11           0       0.159       0.037
+  SFT23901800          JUNCTION      0.00   860.52     0  00:11           0       0.164       0.473
+  SFT24000400          JUNCTION      0.00  2655.72     0  00:09           0       0.179       1.340
+  SFT24000500          JUNCTION      0.00  2658.27     0  00:09           0       0.168       0.751
+  SFT24000600          JUNCTION      0.00  2653.75     0  00:09           0       0.173       0.125
+  SFT24100500          JUNCTION      0.00 18925.44     0  00:00           0       0.205       0.477
+  SFT24100600          JUNCTION      0.00 18243.45     0  00:00           0       0.204       0.090
+  SFT24100700          JUNCTION      0.00 21794.72     0  00:00           0       0.203       0.170
+  SFT24100800          JUNCTION      0.00 15696.24     0  00:00           0       0.202       0.471
+  SFT24101300          JUNCTION      0.00 27836.18     0  00:00           0       0.207       0.469
+  SFT24101400          JUNCTION      0.00  3353.85     0  00:04           0       0.196       4.564
+  SFT24101500          JUNCTION      0.00  2655.13     0  00:09           0       0.188       3.878
+  SFT24108000          JUNCTION      0.00  7797.18     0  00:01           0       0.201       2.341
+  JCT-20               OUTFALL       0.00 43484.43     0  00:00           0       0.209       0.000
+  29A                  STORAGE       0.00    26.00     0  00:24           0       0.113       0.024
+  
+  
+  **********************
+  Node Surcharge Summary
+  **********************
+  
+  Surcharging occurs when water rises above the top of the highest conduit.
+  ---------------------------------------------------------------------
+                                               Max. Height   Min. Depth
+                                   Hours       Above Crown    Below Rim
+  Node                 Type      Surcharged           Feet         Feet
+  ---------------------------------------------------------------------
+  JCT-18               JUNCTION       71.39        127.187        0.000
+  SFT23800100          JUNCTION       72.00        159.273        0.000
+  SFT23800200          JUNCTION       72.00        200.000        0.000
+  SFT23900000          JUNCTION       71.73        125.943        0.000
+  SFT23900100          JUNCTION       71.81        118.188        0.000
+  SFT23900200          JUNCTION       71.80        118.622        0.000
+  SFT23900300          JUNCTION       71.78        120.355        0.000
+  SFT23900400          JUNCTION       71.77        120.728        0.000
+  SFT23900500          JUNCTION       71.77        121.400        0.000
+  SFT23900600          JUNCTION       71.76        121.809        0.000
+  SFT23900700          JUNCTION       71.73        124.545        0.000
+  SFT23900800          JUNCTION       71.73        125.819        0.000
+  SFT23900900          JUNCTION       71.73        125.896        0.000
+  SFT23901000          JUNCTION       71.80        126.653        0.000
+  SFT23901100          JUNCTION       71.80        126.912        0.000
+  SFT23901200          JUNCTION       71.75        122.002        0.000
+  SFT23901500          JUNCTION       71.81        118.088        0.000
+  SFT23901600          JUNCTION       71.81        118.046        0.000
+  SFT23901700          JUNCTION       71.81        118.004        0.000
+  SFT23901800          JUNCTION       71.81        117.935        0.000
+  SFT24000400          JUNCTION       71.85        200.000        0.000
+  SFT24000500          JUNCTION       71.84        200.000        0.000
+  SFT24000600          JUNCTION       71.85        200.000        0.000
+  SFT24100500          JUNCTION       72.00        163.981        0.000
+  SFT24100600          JUNCTION       72.00        166.163        0.000
+  SFT24100700          JUNCTION       72.00        167.279        0.000
+  SFT24100800          JUNCTION       72.00        166.383        0.000
+  SFT24101300          JUNCTION       72.00        190.018        0.000
+  SFT24101400          JUNCTION       71.92        200.000        0.000
+  SFT24101500          JUNCTION       71.87        200.000        0.000
+  SFT24108000          JUNCTION       71.98        200.000        0.000
+  
+  
+  *********************
+  Node Flooding Summary
+  *********************
+  
+  Flooding refers to all water that overflows a node, whether it ponds or not.
+  --------------------------------------------------------------------------
+                                                             Total   Maximum
+                                 Maximum   Time of Max       Flood    Ponded
+                        Hours       Rate    Occurrence      Volume     Depth
+  Node                 Flooded       GPM   days hr:min    10^6 gal      Feet
+  --------------------------------------------------------------------------
+  SFT23800200             0.01  13221.17      0  00:00       0.000   200.000
+  SFT24000400             0.01     73.79      0  00:09       0.000   200.000
+  SFT24000500             0.01    145.52      0  00:09       0.000   200.000
+  SFT24000600             0.01    282.61      0  00:09       0.000   200.000
+  SFT24101400             0.01   2884.08      0  00:04       0.000   200.000
+  SFT24101500             0.01   1968.51      0  00:08       0.000   200.000
+  SFT24108000             0.01   7354.76      0  00:01       0.000   200.000
+  
+  
+  **********************
+  Storage Volume Summary
+  **********************
+  
+  --------------------------------------------------------------------------------------------------
+                         Average     Avg  Evap Exfil       Maximum     Max    Time of Max    Maximum
+                          Volume    Pcnt  Pcnt  Pcnt        Volume    Pcnt     Occurrence    Outflow
+  Storage Unit          1000 ft3    Full  Loss  Loss      1000 ft3    Full    days hr:min        GPM
+  --------------------------------------------------------------------------------------------------
+  29A                      0.074      22     0     0         0.106      31       1  09:37     750.00
+  
+  
+  ***********************
+  Outfall Loading Summary
+  ***********************
+  
+  -----------------------------------------------------------
+                         Flow       Avg       Max       Total
+                         Freq      Flow      Flow      Volume
+  Outfall Node           Pcnt       GPM       GPM    10^6 gal
+  -----------------------------------------------------------
+  JCT-20                97.35     49.60  43484.43       0.209
+  -----------------------------------------------------------
+  System                97.35     49.60  43484.43       0.209
+  
+  
+  ********************
+  Link Flow Summary
+  ********************
+  
+  -----------------------------------------------------------------------------
+                                 Maximum  Time of Max   Maximum    Max/    Max/
+                                  |Flow|   Occurrence   |Veloc|    Full    Full
+  Link                 Type          GPM  days hr:min    ft/sec    Flow   Depth
+  -----------------------------------------------------------------------------
+  CDT-17               CONDUIT    806.43     0  00:00     30.27  107.98    1.00
+  CDT-19               CONDUIT     26.00     0  00:24      2.00    0.04    0.14
+  CDT-21               CONDUIT  21794.72     0  00:00    >50.00  229.41    1.00
+  SPI23800100          CONDUIT  43484.43     0  00:00    >50.00  253.79    1.00
+  SPI23800200          CONDUIT  29981.08     0  00:00     49.24  261.69    1.00
+  SPI23900000          CONDUIT    776.14     0  00:00     12.39   27.18    1.00
+  SPI23900100          CONDUIT    918.18     0  00:11     14.40   65.31    1.00
+  SPI23900200          CONDUIT    794.19     0  00:11     12.71  136.38    1.00
+  SPI23900300          CONDUIT    665.38     0  00:13      8.98  225.39    1.00
+  SPI23900400          CONDUIT    664.74     0  00:13     10.64   94.64    1.00
+  SPI23900500          CONDUIT    638.11     0  00:13     10.38  123.51    1.00
+  SPI23900600          CONDUIT    620.42     0  00:14     10.95   90.84    1.00
+  SPI23900700          CONDUIT    507.54     0  00:16      6.53  200.65    1.00
+  SPI23900800          CONDUIT    507.78     0  00:16      6.63  125.23    1.00
+  SPI23900900          CONDUIT    785.27     0  00:00     14.12   35.10    1.00
+  SPI23901000          CONDUIT    967.94     0  00:00     25.27  179.79    1.00
+  SPI23901100          CONDUIT    915.80     0  00:00     28.19  117.00    1.00
+  SPI23901200          CONDUIT    607.97     0  00:15     11.69   60.21    1.00
+  SPI23901500          CONDUIT    978.62     0  00:11     14.18   41.55    1.00
+  SPI23901600          CONDUIT    924.87     0  00:11     10.49   34.81    1.00
+  SPI23901700          CONDUIT    865.28     0  00:11      9.82   38.68    1.00
+  SPI23901800          CONDUIT    860.52     0  00:11      9.76  427.24    1.00
+  SPI24000400          CONDUIT   2655.72     0  00:09      9.20  192.47    1.00
+  SPI24000500          CONDUIT   2658.27     0  00:09     17.16   36.05    1.00
+  SPI24000600          CONDUIT   2653.75     0  00:09     10.84   41.22    1.00
+  SPI24100500          CONDUIT  18925.44     0  00:00     32.87  283.11    1.00
+  SPI24100600          CONDUIT  18243.45     0  00:00    >50.00  128.64    1.00
+  SPI24100800          CONDUIT  15696.24     0  00:00    >50.00  127.53    1.00
+  SPI24101300          CONDUIT  27836.18     0  00:00     49.97  131.77    1.00
+  SPI24101400          CONDUIT   3353.85     0  00:04      9.64  324.05    1.00
+  SPI24101500          CONDUIT   2655.13     0  00:09      7.74  287.96    1.00
+  SPI24108000          CONDUIT   7797.18     0  00:01     23.65  322.67    1.00
+  29A                  PUMP       750.00     0  00:00              1.00
+  
+  
+  ***************************
+  Flow Classification Summary
+  ***************************
+  
+  -------------------------------------------------------------------------------------
+                      Adjusted    ---------- Fraction of Time in Flow Class ---------- 
+                       /Actual         Up    Down  Sub   Sup   Up    Down  Norm  Inlet 
+  Conduit               Length    Dry  Dry   Dry   Crit  Crit  Crit  Crit  Ltd   Ctrl  
+  -------------------------------------------------------------------------------------
+  CDT-17                  1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  CDT-19                  1.00   0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00
+  CDT-21                  1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23800100             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23800200             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23900000             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23900100             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23900200             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23900300             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23900400             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23900500             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23900600             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23900700             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23900800             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23900900             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23901000             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23901100             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23901200             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23901500             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23901600             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23901700             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI23901800             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI24000400             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI24000500             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI24000600             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI24100500             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI24100600             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI24100800             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI24101300             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI24101400             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI24101500             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI24108000             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  
+  
+  *************************
+  Conduit Surcharge Summary
+  *************************
+  
+  ----------------------------------------------------------------------------
+                                                           Hours        Hours 
+                         --------- Hours Full --------   Above Full   Capacity
+  Conduit                Both Ends  Upstream  Dnstream   Normal Flow   Limited
+  ----------------------------------------------------------------------------
+  CDT-17                     71.39     71.39     71.80     10.06         9.95
+  CDT-21                     72.00     72.00     72.00     11.48        33.88
+  SPI23800100                72.00     72.00     72.00      9.86        29.82
+  SPI23800200                72.00     72.00     72.00     10.89        34.63
+  SPI23900000                71.73     71.73     71.73     10.93        27.77
+  SPI23900100                71.81     71.81     71.81     19.12        37.80
+  SPI23900200                71.80     71.80     71.81     30.65        39.49
+  SPI23900300                71.78     71.78     71.80     48.95        40.23
+  SPI23900400                71.77     71.77     71.78     26.81        39.14
+  SPI23900500                71.77     71.77     71.77     32.53        39.66
+  SPI23900600                71.76     71.76     71.77     26.64        39.15
+  SPI23900700                71.73     71.73     71.75     49.63        40.26
+  SPI23900800                71.72     71.73     71.73     37.45        39.84
+  SPI23900900                71.73     71.73     71.73     13.59        32.13
+  SPI23901000                71.80     71.80     71.80     13.97        32.93
+  SPI23901100                71.80     71.80     71.80     10.83        26.84
+  SPI23901200                71.75     71.75     71.76     20.79        38.20
+  SPI23901500                71.81     71.81     71.81     15.68        36.56
+  SPI23901600                71.81     71.81     71.81     16.18        36.00
+  SPI23901700                71.81     71.81     71.81     18.63        37.43
+  SPI23901800                71.81     71.81     71.84     60.74        40.49
+  SPI24000400                71.85     71.85     71.87     27.53        39.35
+  SPI24000500                71.84     71.84     71.85     11.86        35.14
+  SPI24000600                71.85     71.85     71.85     12.59        36.19
+  SPI24100500                72.00     72.00     72.00     12.76        37.04
+  SPI24100600                72.00     72.00     72.00     10.08        33.78
+  SPI24100800                72.00     72.00     72.00     10.61        34.11
+  SPI24101300                72.00     72.00     72.00      1.24        32.87
+  SPI24101400                71.92     71.92     71.98     34.13        39.51
+  SPI24101500                71.87     71.87     71.92     37.77        39.55
+  SPI24108000                71.98     71.98     72.00     20.29        38.70
+  
+  
+  ***************
+  Pumping Summary
+  ***************
+  
+  ---------------------------------------------------------------------------------------------------------
+                                                  Min       Avg       Max     Total     Power    % Time Off
+                        Percent   Number of      Flow      Flow      Flow    Volume     Usage    Pump Curve
+  Pump                 Utilized   Start-Ups       GPM       GPM       GPM  10^6 gal     Kw-hr    Low   High
+  ---------------------------------------------------------------------------------------------------------
+  29A                     13.74         203      0.00    189.09    750.00     0.112     44.85    0.0    0.1
+  
+
+  Analysis begun on:  Wed Jan 02 04:54:02 2019
+  Analysis ended on:  Wed Jan 02 04:54:46 2019
+  Total elapsed time: 00:00:44

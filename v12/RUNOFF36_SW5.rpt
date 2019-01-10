@@ -1,0 +1,59 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+   SW 2 0 8 0 8 
+  #SWMM4_RAINFALL   Reads a SWMM 4 Binary Rainfall Interface File 
+  
+  
+  *************
+  Element Count
+  *************
+  Number of rain gages ...... 1
+  Number of subcatchments ... 1
+  Number of nodes ........... 1
+  Number of links ........... 0
+  Number of pollutants ...... 0
+  Number of land uses ....... 0
+  
+  
+  ****************
+  Raingage Summary
+  ****************
+                                                      Data       Recording
+  Name                 Data Source                    Type       Interval 
+  ------------------------------------------------------------------------
+  GAGE1                D:\SWMMandSoftware\swmm_crada_files\Other SWMM5 Files\RAIN8.INT
+  
+  
+  ********************
+  Subcatchment Summary
+  ********************
+  Name                       Area     Width   %Imperv    %Slope Rain Gage            Outlet              
+  -----------------------------------------------------------------------------------------------------------
+  W1                       300.00    100.00     20.00    0.1000 GAGE1                1                   
+  
+  
+  ************
+  Node Summary
+  ************
+                                           Invert      Max.    Ponded    External
+  Name                 Type                 Elev.     Depth      Area    Inflow  
+  -------------------------------------------------------------------------------
+  1                    OUTFALL               0.00      0.00       0.0
+  
+  
+  
+  *********************
+  Rainfall File Summary
+  *********************
+  Station    First        Last         Recording   Periods    Periods    Periods
+  ID         Date         Date         Frequency  w/Precip    Missing    Malfunc.
+  -------------------------------------------------------------------------------
+
+  
+  ERROR 317: cannot open rainfall data file D:\SWMMandSoftware\swmm_crada_files\Other SWMM5 Files\RAIN8.INT.
+
+  Analysis begun on:  Wed Jan 02 08:33:47 2019
+  Analysis ended on:  Wed Jan 02 08:33:47 2019
+  Total elapsed time: < 1 sec

@@ -1,0 +1,94 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+  Seasonal soil test 
+  M. Heineman 6/12 
+  
+  
+  *********************
+  Rainfall File Summary
+  *********************
+  Station    First        Last         Recording   Periods    Periods    Periods
+  ID         Date         Date         Frequency  w/Precip    Missing    Malfunc.
+  -------------------------------------------------------------------------------
+  *          05/05/1948   12/27/2010      60 min     43023          6          0
+
+  
+  **********************           Volume        Volume
+  Rainfall Dependent I/I        acre-feet      10^6 gal
+  **********************        ---------     ---------
+  Sewershed Rainfall ......     39052.199     12725.742
+  RDII Produced ...........      7345.641      2393.687
+  RDII Ratio ..............         0.188
+  
+  
+  *********************************************************
+  NOTE: The summary statistics displayed in this report are
+  based on results found at every computational time step,  
+  not just on results from each reporting time step.
+  *********************************************************
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... CFS
+  Process Models:
+    Rainfall/Runoff ........ YES
+    RDII ................... YES
+    Snowmelt ............... NO
+    Groundwater ............ NO
+    Flow Routing ........... NO
+    Water Quality .......... NO
+  Infiltration Method ...... GREEN_AMPT
+  Starting Date ............ 01/01/1948 00:00:00
+  Ending Date .............. 01/01/2011 06:00:00
+  Antecedent Dry Days ...... 0.0
+  Report Time Step ......... 01:00:00
+  Wet Time Step ............ 00:15:00
+  Dry Time Step ............ 02:00:00
+  
+  
+  **************************        Volume         Depth
+  Runoff Quantity Continuity     acre-feet        inches
+  **************************     ---------       -------
+  Total Precipitation ......     94671.997      2840.160
+  Evaporation Loss .........     15649.898       469.497
+  Infiltration Loss ........     30568.237       917.047
+  Surface Runoff ...........     48920.204      1467.606
+  Final Storage ............         0.000         0.000
+  Continuity Error (%) .....        -0.493
+  
+  
+  **************************        Volume        Volume
+  Flow Routing Continuity        acre-feet      10^6 gal
+  **************************     ---------     ---------
+  Dry Weather Inflow .......         0.000         0.000
+  Wet Weather Inflow .......     48920.204     15941.379
+  Groundwater Inflow .......         0.000         0.000
+  RDII Inflow ..............      7345.641      2393.687
+  External Inflow ..........         0.000         0.000
+  External Outflow .........     56265.845     18335.066
+  Flooding Loss ............         0.000         0.000
+  Evaporation Loss .........         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000
+  Initial Stored Volume ....         0.000         0.000
+  Final Stored Volume ......         0.000         0.000
+  Continuity Error (%) .....         0.000
+  
+  
+  ***************************
+  Subcatchment Runoff Summary
+  ***************************
+  
+  --------------------------------------------------------------------------------------------------------
+                            Total      Total      Total      Total      Total       Total     Peak  Runoff
+                           Precip      Runon       Evap      Infil     Runoff      Runoff   Runoff   Coeff
+  Subcatchment                 in         in         in         in         in    10^6 gal      CFS
+  --------------------------------------------------------------------------------------------------------
+  MyCatch                 2840.16       0.00     469.50     917.05    1467.61    15940.20   512.92   0.517
+  
+
+  Analysis begun on:  Wed Jan 02 08:35:00 2019
+  Analysis ended on:  Wed Jan 02 08:37:26 2019
+  Total elapsed time: 00:02:26

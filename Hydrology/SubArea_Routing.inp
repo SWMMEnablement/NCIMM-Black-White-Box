@@ -1,0 +1,240 @@
+[TITLE]
+;;Project Title/Notes
+
+[OPTIONS]
+;;Option             Value
+FLOW_UNITS           CFS
+INFILTRATION         HORTON
+FLOW_ROUTING         KINWAVE
+LINK_OFFSETS         DEPTH
+MIN_SLOPE            0
+ALLOW_PONDING        NO
+SKIP_STEADY_STATE    NO
+
+START_DATE           01/01/2009
+START_TIME           00:00:00
+REPORT_START_DATE    01/01/2009
+REPORT_START_TIME    00:00:00
+END_DATE             03/30/2009
+END_TIME             00:00:00
+SWEEP_START          01/01
+SWEEP_END            12/31
+DRY_DAYS             0
+REPORT_STEP          00:15:00
+WET_STEP             00:15:00
+DRY_STEP             00:15:00
+ROUTING_STEP         0:00:15 
+
+INERTIAL_DAMPING     PARTIAL
+NORMAL_FLOW_LIMITED  BOTH
+FORCE_MAIN_EQUATION  H-W
+VARIABLE_STEP        0.75
+LENGTHENING_STEP     0
+MIN_SURFAREA         0
+MAX_TRIALS           0
+HEAD_TOLERANCE       0
+SYS_FLOW_TOL         5
+LAT_FLOW_TOL         5
+MINIMUM_STEP         0.5
+THREADS              1
+
+[EVAPORATION]
+;;Data Source    Parameters
+;;-------------- ----------------
+CONSTANT         0
+DRY_ONLY         NO
+
+[RAINGAGES]
+;;Name           Format    Interval SCF      Source    
+;;-------------- --------- ------ ------ ----------
+Gage-All         INTENSITY 0:15     1.0      TIMESERIES Storm-All       
+
+[SUBCATCHMENTS]
+;;Name           Rain Gage        Outlet           Area     %Imperv  Width    %Slope   CurbLen  SnowPack        
+;;-------------- ---------------- ---------------- -------- -------- -------- -------- -------- ----------------
+Wat003-D         Gage-All         Out003-D         13.9     5        200      30       0                        
+Wat004-D         Gage-All         Out004-D         6.5      2        100      30       0                        
+Wat006-D         Gage-All         Out006-D         12.9     5        100      30       0                        
+Wat008-D         Gage-All         Out008-D         62.2     12.0     972      13       0                        
+Wat009-D         Gage-All         Out009-D         535.7    17.0     581      21       0                        
+Wat010-D         Gage-All         Out010-D         5.3      11.2     129      18.4     0                        
+Wat003-W         Gage-All         Out003-W         13.9     5.0      200      30       0                        
+Wat004-W         Gage-All         Out004-W         6.5      2.0      100      30       0                        
+Wat006-W         Gage-All         Out006-W         12.9     5.0      100      30       0                        
+Wat008-W         Gage-All         Out008-W         62.2     12       972      13       0                        
+Wat009-W         Gage-All         Out009-W         535.7    17       581      21       0                        
+Wat010-W         Gage-All         Out010-W         5.3      11.2     129      18.4     0                        
+
+[SUBAREAS]
+;;Subcatchment   N-Imperv   N-Perv     S-Imperv   S-Perv     PctZero    RouteTo    PctRouted 
+;;-------------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+Wat003-D         0.01       0.40       0.01       0.25       25         PERVIOUS   100       
+Wat004-D         0.10       0.60       0.01       0.30       25         PERVIOUS   100       
+Wat006-D         0.10       0.60       0.01       0.30       25         PERVIOUS   100       
+Wat008-D         0.10       0.40       0.01       0.20       25         PERVIOUS   100       
+Wat009-D         0.01       0.1        0.01       0.10       25         PERVIOUS   100       
+Wat010-D         0.10       0.40       0.01       0.20       25         PERVIOUS   100       
+Wat003-W         0.01       0.40       0.01       0.20       25         PERVIOUS   100       
+Wat004-W         0.10       0.60       0.01       0.25       25         PERVIOUS   100       
+Wat006-W         0.10       0.60       0.01       0.25       25         PERVIOUS   100       
+Wat008-W         0.10       0.40       0.01       0.15       25         PERVIOUS   100       
+Wat009-W         0.01       0.1        0.01       0.05       25         PERVIOUS   100       
+Wat010-W         0.10       0.40       0.01       0.15       25         PERVIOUS   100       
+
+[INFILTRATION]
+;;Subcatchment   MaxRate    MinRate    Decay      DryTime    MaxInfil  
+;;-------------- ---------- ---------- ---------- ---------- ----------
+Wat003-D         0.20       0.15       0.5        7          5         
+Wat004-D         0.20       0.15       0.5        7          5         
+Wat006-D         0.20       0.15       0.5        7          5         
+Wat008-D         0.20       0.15       0.5        7          5         
+Wat009-D         0.20       0.15       0.5        7          5         
+Wat010-D         0.20       0.15       0.5        7          5         
+Wat003-W         0.10       0.07       0.5        7          5         
+Wat004-W         0.15       0.10       0.5        7          5         
+Wat006-W         0.15       0.10       0.5        7          5         
+Wat008-W         0.15       0.10       0.5        7          5         
+Wat009-W         0.15       0.10       0.5        7          5         
+Wat010-W         0.15       0.07       0.5        7          5         
+
+[OUTFALLS]
+;;Name           Elevation  Type       Stage Data       Gated    Route To        
+;;-------------- ---------- ---------- ---------------- -------- ----------------
+Out003-D         0          FREE                        NO                       
+Out004-D         0          FREE                        NO                       
+Out006-D         0          FREE                        NO                       
+Out008-W         0          FREE                        NO                       
+Out009-W         1          FREE                        NO                       
+Out010-D         0          FREE                        NO                       
+Out010-W         0          FREE                        NO                       
+Out009-D         0          FREE                        NO                       
+Out008-D         0          FREE                        NO                       
+Out006-W         0          FREE                        NO                       
+Out004-W         0          FREE                        NO                       
+Out003-W         0          FREE                        NO                       
+
+[TIMESERIES]
+;;Name           Date       Time       Value     
+;;-------------- ---------- ---------- ----------
+Storm-All        FILE "StormAll.dat"
+
+[REPORT]
+;;Reporting Options
+INPUT      NO
+CONTROLS   NO
+SUBCATCHMENTS ALL
+NODES ALL
+LINKS ALL
+
+[TAGS]
+
+[MAP]
+DIMENSIONS -3764.151 567.371 13575.472 9972.003
+Units      None
+
+[COORDINATES]
+;;Node           X-Coord            Y-Coord           
+;;-------------- ------------------ ------------------
+Out003-D         488.851            6518.010          
+Out004-D         488.851            1560.892          
+Out006-D         6578.045           5849.057          
+Out008-W         7727.273           2727.273          
+Out009-W         11689.537          7907.376          
+Out010-D         12787.307          2041.166          
+Out010-W         12718.696          3224.700          
+Out009-D         11518.010          5849.057          
+Out008-D         7950.257           994.854           
+Out006-W         6509.434           7530.017          
+Out004-W         128.645            3447.684          
+Out003-W         145.798            8130.360          
+
+[VERTICES]
+;;Link           X-Coord            Y-Coord           
+;;-------------- ------------------ ------------------
+
+[Polygons]
+;;Subcatchment   X-Coord            Y-Coord           
+;;-------------- ------------------ ------------------
+Wat003-D         -1498.425          7414.930          
+Wat003-D         -1197.565          7443.583          
+Wat003-D         -782.092           7214.357          
+Wat003-D         -667.479           7071.090          
+Wat003-D         -552.866           6899.170          
+Wat003-D         -466.906           6684.271          
+Wat003-D         -466.906           6469.371          
+Wat003-D         -1097.278          5953.612          
+Wat003-D         -1698.998          6068.225          
+Wat003-D         -2085.817          6440.718          
+Wat003-D         -2128.797          6641.291          
+Wat003-D         -2214.757          7013.784          
+Wat003-D         -2085.817          7056.764          
+Wat003-D         -1426.791          7443.583          
+Wat004-D         -1306.684          2782.579          
+Wat004-D         -1249.377          2868.539          
+Wat004-D         -275.165           1650.774          
+Wat004-D         -1937.056          1622.121          
+Wat004-D         -1278.030          2825.559          
+Wat006-D         4684.719           7039.028          
+Wat006-D         4426.840           6996.048          
+Wat006-D         4441.166           6996.048          
+Wat006-D         4469.820           5964.530          
+Wat006-D         5787.871           5993.183          
+Wat006-D         5816.524           7039.028          
+Wat006-D         4412.513           7039.028          
+Wat008-D         5373.928           2116.638          
+Wat008-D         5373.928           1241.852          
+Wat008-D         6849.057           1276.158          
+Wat008-D         6831.904           2150.943          
+Wat008-D         5373.928           2133.791          
+Wat009-D         9339.623           7324.185          
+Wat009-D         9288.165           5951.973          
+Wat009-D         10883.362          5900.515          
+Wat009-D         10849.057          7392.796          
+Wat009-D         9356.775           7375.643          
+Wat010-D         10641.809          3053.684          
+Wat010-D         10613.156          2451.965          
+Wat010-D         12217.740          2466.291          
+Wat010-D         12217.740          3096.664          
+Wat010-D         10613.156          3082.337          
+Wat003-W         -2770.154          8850.772          
+Wat003-W         -2821.612          8233.276          
+Wat003-W         -2667.238          7804.460          
+Wat003-W         -1981.132          7735.849          
+Wat003-W         -1603.774          7838.765          
+Wat003-W         -986.278           8061.750          
+Wat003-W         -951.973           8336.192          
+Wat003-W         -1277.873          8850.772          
+Wat003-W         -1346.484          9056.604          
+Wat003-W         -1723.842          9210.978          
+Wat003-W         -2049.743          9176.672          
+Wat003-W         -2975.986          8730.703          
+Wat004-W         -2066.895          3704.974          
+Wat004-W         -454.545           3722.127          
+Wat004-W         -1312.178          4871.355          
+Wat004-W         -2084.048          3704.974          
+Wat006-W         4331.046           8816.467          
+Wat006-W         4331.046           7753.002          
+Wat006-W         5651.801           7804.460          
+Wat006-W         5634.648           8885.077          
+Wat006-W         4193.825           8885.077          
+Wat008-W         5427.676           3699.990          
+Wat008-W         5427.676           2826.065          
+Wat008-W         6745.728           2883.372          
+Wat008-W         6702.748           3757.297          
+Wat008-W         5327.390           3728.644          
+Wat009-W         9302.195           9482.601          
+Wat009-W         9333.155           7950.093          
+Wat009-W         10896.622          7919.133          
+Wat009-W         10896.622          9544.520          
+Wat009-W         9271.235           9529.040          
+Wat010-W         10828.473          4445.969          
+Wat010-W         10811.321          3605.489          
+Wat010-W         12440.823          3571.184          
+Wat010-W         12457.976          4445.969          
+Wat010-W         10622.642          4428.816          
+
+[SYMBOLS]
+;;Gage           X-Coord            Y-Coord           
+;;-------------- ------------------ ------------------
+Gage-All         3684.913           9412.550          
+

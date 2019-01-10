@@ -1,0 +1,11 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+  
+  ERROR 159: recording interval greater than time series interval for Rain Gage RAINGAGE-1.
+  WARNING 07: routing time step reduced to the wet weather time step 
+
+  Analysis begun on:  Wed Jan 02 08:37:45 2019
+  Analysis ended on:  Wed Jan 02 08:37:45 2019
+  Total elapsed time: < 1 sec
