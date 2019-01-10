@@ -1,0 +1,410 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+  
+  ERROR 205: invalid keyword FLOW at line 21089 of [CONTROL] section:
+  OR WEIR 06CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21090 of [CONTROL] section:
+  OR WEIR 06CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21096 of [CONTROL] section:
+  OR WEIR 06CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21097 of [CONTROL] section:
+  OR WEIR 06CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21103 of [CONTROL] section:
+  OR WEIR 06CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21104 of [CONTROL] section:
+  OR WEIR 06CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21122 of [CONTROL] section:
+  OR WEIR 10CTIWR1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21123 of [CONTROL] section:
+  OR ORIFICE 10CTIWR1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21124 of [CONTROL] section:
+  OR ORIFICE 10CTIWR1_3 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21130 of [CONTROL] section:
+  OR WEIR 10CTIWR1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21131 of [CONTROL] section:
+  OR ORIFICE 10CTIWR1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21132 of [CONTROL] section:
+  OR ORIFICE 10CTIWR1_3 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21156 of [CONTROL] section:
+  OR WEIR 12CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21157 of [CONTROL] section:
+  OR WEIR 12CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21163 of [CONTROL] section:
+  OR WEIR 12CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21164 of [CONTROL] section:
+  OR WEIR 12CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21170 of [CONTROL] section:
+  OR WEIR 12CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21171 of [CONTROL] section:
+  OR WEIR 12CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21237 of [CONTROL] section:
+  OR WEIR 20CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21238 of [CONTROL] section:
+  OR WEIR 20CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21244 of [CONTROL] section:
+  OR WEIR 20CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21245 of [CONTROL] section:
+  OR WEIR 20CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21287 of [CONTROL] section:
+  OR WEIR 24CTIWR_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21288 of [CONTROL] section:
+  OR WEIR 24CTIWR_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21294 of [CONTROL] section:
+  OR WEIR 24CTIWR_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21295 of [CONTROL] section:
+  OR WEIR 24CTIWR_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21301 of [CONTROL] section:
+  OR WEIR 24CTIWR_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21302 of [CONTROL] section:
+  OR WEIR 24CTIWR_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21308 of [CONTROL] section:
+  OR WEIR 24CTIWR_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21309 of [CONTROL] section:
+  OR WEIR 24CTIWR_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21315 of [CONTROL] section:
+  OR WEIR 24CTIWR_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21316 of [CONTROL] section:
+  OR WEIR 24CTIWR_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21322 of [CONTROL] section:
+  OR WEIR 24CTIWR_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21323 of [CONTROL] section:
+  OR WEIR 24CTIWR_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21473 of [CONTROL] section:
+  OR WEIR 332CTIWR_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21479 of [CONTROL] section:
+  OR WEIR 332CTIWR_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21533 of [CONTROL] section:
+  OR WEIR 341CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21534 of [CONTROL] section:
+  OR WEIR 341CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21535 of [CONTROL] section:
+  OR WEIR 341CTIWR_2_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21536 of [CONTROL] section:
+  OR WEIR 341CTIWR_2_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21537 of [CONTROL] section:
+  OR WEIR 341CTIWR_3_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21538 of [CONTROL] section:
+  OR WEIR 341CTIWR_3_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21539 of [CONTROL] section:
+  OR WEIR 341CTIWR_4_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21540 of [CONTROL] section:
+  OR WEIR 341CTIWR_4_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21541 of [CONTROL] section:
+  OR WEIR 341CTIWR_5_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21542 of [CONTROL] section:
+  OR WEIR 341CTIWR_5_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21543 of [CONTROL] section:
+  OR WEIR 341CTIWR_6_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21544 of [CONTROL] section:
+  OR WEIR 341CTIWR_6_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21550 of [CONTROL] section:
+  OR WEIR 341CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21551 of [CONTROL] section:
+  OR WEIR 341CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21552 of [CONTROL] section:
+  OR WEIR 341CTIWR_2_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21553 of [CONTROL] section:
+  OR WEIR 341CTIWR_2_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21554 of [CONTROL] section:
+  OR WEIR 341CTIWR_3_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21555 of [CONTROL] section:
+  OR WEIR 341CTIWR_3_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21556 of [CONTROL] section:
+  OR WEIR 341CTIWR_4_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21557 of [CONTROL] section:
+  OR WEIR 341CTIWR_4_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21558 of [CONTROL] section:
+  OR WEIR 341CTIWR_5_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21559 of [CONTROL] section:
+  OR WEIR 341CTIWR_5_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21560 of [CONTROL] section:
+  OR WEIR 341CTIWR_6_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21561 of [CONTROL] section:
+  OR WEIR 341CTIWR_6_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21567 of [CONTROL] section:
+  OR WEIR 341CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21568 of [CONTROL] section:
+  OR WEIR 341CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21569 of [CONTROL] section:
+  OR WEIR 341CTIWR_2_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21570 of [CONTROL] section:
+  OR WEIR 341CTIWR_2_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21571 of [CONTROL] section:
+  OR WEIR 341CTIWR_3_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21572 of [CONTROL] section:
+  OR WEIR 341CTIWR_3_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21573 of [CONTROL] section:
+  OR WEIR 341CTIWR_4_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21574 of [CONTROL] section:
+  OR WEIR 341CTIWR_4_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21575 of [CONTROL] section:
+  OR WEIR 341CTIWR_5_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21576 of [CONTROL] section:
+  OR WEIR 341CTIWR_5_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21577 of [CONTROL] section:
+  OR WEIR 341CTIWR_6_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21578 of [CONTROL] section:
+  OR WEIR 341CTIWR_6_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21584 of [CONTROL] section:
+  OR WEIR 341CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21585 of [CONTROL] section:
+  OR WEIR 341CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21586 of [CONTROL] section:
+  OR WEIR 341CTIWR_2_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21587 of [CONTROL] section:
+  OR WEIR 341CTIWR_2_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21588 of [CONTROL] section:
+  OR WEIR 341CTIWR_3_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21589 of [CONTROL] section:
+  OR WEIR 341CTIWR_3_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21590 of [CONTROL] section:
+  OR WEIR 341CTIWR_4_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21591 of [CONTROL] section:
+  OR WEIR 341CTIWR_4_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21592 of [CONTROL] section:
+  OR WEIR 341CTIWR_5_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21593 of [CONTROL] section:
+  OR WEIR 341CTIWR_5_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21594 of [CONTROL] section:
+  OR WEIR 341CTIWR_6_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21595 of [CONTROL] section:
+  OR WEIR 341CTIWR_6_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21601 of [CONTROL] section:
+  OR WEIR 341CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21602 of [CONTROL] section:
+  OR WEIR 341CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21603 of [CONTROL] section:
+  OR WEIR 341CTIWR_2_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21604 of [CONTROL] section:
+  OR WEIR 341CTIWR_2_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21605 of [CONTROL] section:
+  OR WEIR 341CTIWR_3_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21606 of [CONTROL] section:
+  OR WEIR 341CTIWR_3_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21607 of [CONTROL] section:
+  OR WEIR 341CTIWR_4_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21608 of [CONTROL] section:
+  OR WEIR 341CTIWR_4_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21609 of [CONTROL] section:
+  OR WEIR 341CTIWR_5_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21610 of [CONTROL] section:
+  OR WEIR 341CTIWR_5_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21611 of [CONTROL] section:
+  OR WEIR 341CTIWR_6_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21612 of [CONTROL] section:
+  OR WEIR 341CTIWR_6_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21618 of [CONTROL] section:
+  OR WEIR 341CTIWR_1_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21619 of [CONTROL] section:
+  OR WEIR 341CTIWR_1_2 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21620 of [CONTROL] section:
+  OR WEIR 341CTIWR_2_1 FLOW > 0.100000
+
+  
+  ERROR 205: invalid keyword FLOW at line 21621 of [CONTROL] section:
+  OR WEIR 341CTIWR_2_2 FLOW > 0.100000
+
+  
+  Maximum error count exceeded.
+
+  Analysis begun on:  Wed Jan 02 04:44:18 2019
+  Analysis ended on:  Wed Jan 02 04:44:18 2019
+  Total elapsed time: < 1 sec

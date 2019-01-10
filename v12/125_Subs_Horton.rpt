@@ -1,0 +1,25 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+  WARNING 04: minimum elevation drop used for Conduit GM.5561.02.061
+  WARNING 04: minimum elevation drop used for Conduit GM.5562.04.035
+  WARNING 04: minimum elevation drop used for Conduit GM.5562.04.036
+  WARNING 04: minimum elevation drop used for Conduit GM.5760.03.CSO62
+  WARNING 04: minimum elevation drop used for Conduit GM.5761.02.041
+  WARNING 04: minimum elevation drop used for Conduit GM.5761.04.CSO61.1
+  WARNING 04: minimum elevation drop used for Conduit GM.5762.01.OUTFALL55
+  
+  *********************
+  Rainfall File Summary
+  *********************
+  Station    First        Last         Recording   Periods    Periods    Periods
+  ID         Date         Date         Frequency  w/Precip    Missing    Malfunc.
+  -------------------------------------------------------------------------------
+
+  
+  ERROR 317: cannot open rainfall data file F:\2016PC\Desktop\Rain_Lynchburg_1948_2010.dat.
+
+  Analysis begun on:  Wed Jan 02 04:58:14 2019
+  Analysis ended on:  Wed Jan 02 04:58:14 2019
+  Total elapsed time: < 1 sec

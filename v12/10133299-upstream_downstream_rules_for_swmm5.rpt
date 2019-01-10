@@ -1,0 +1,15 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+    Input and Output FilesSW 1 0 20 
+    Input and Output FilesSW 1 0 20 
+  
+  
+  ERROR 337: cannot open climate file C:\Documents and Settings\Robert E Dickinson\Desktop\WU_Temperature.dat.
+  WARNING 03: negative offset ignored for Link ORIFICE1
+  WARNING 03: negative offset ignored for Link Orifice2
+
+  Analysis begun on:  Wed Jan 02 04:44:18 2019
+  Analysis ended on:  Wed Jan 02 04:44:18 2019
+  Total elapsed time: < 1 sec

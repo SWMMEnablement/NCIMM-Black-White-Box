@@ -1,0 +1,20 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+  WindermereRef3a - BASE 
+  
+  
+  *********************
+  Rainfall File Summary
+  *********************
+  Station    First        Last         Recording   Periods    Periods    Periods
+  ID         Date         Date         Frequency  w/Precip    Missing    Malfunc.
+  -------------------------------------------------------------------------------
+
+  
+  ERROR 317: cannot open rainfall data file F:\My2016\Misgana\RAIN_GW.DAT.
+
+  Analysis begun on:  Wed Jan 02 08:32:59 2019
+  Analysis ended on:  Wed Jan 02 08:32:59 2019
+  Total elapsed time: < 1 sec

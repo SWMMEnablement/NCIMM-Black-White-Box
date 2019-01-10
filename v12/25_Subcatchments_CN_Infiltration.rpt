@@ -1,0 +1,20 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+  
+  ERROR 205: invalid keyword GENERAL at line 252 of [CURVE] section:
+  10YR_IDF	GENERAL	1.000000	370.020000
+
+  
+  ERROR 205: invalid keyword GENERAL at line 265 of [CURVE] section:
+  2YR_IDF	GENERAL	1.000000	259.590000
+
+  
+  ERROR 205: invalid keyword AVERAGES at line 425 of [REPORT] section:
+  AVERAGES NO
+
+
+  Analysis begun on:  Wed Jan 02 08:22:46 2019
+  Analysis ended on:  Wed Jan 02 08:22:47 2019
+  Total elapsed time: 00:00:01

@@ -1,0 +1,18 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+  
+  *********************
+  Rainfall File Summary
+  *********************
+  Station    First        Last         Recording   Periods    Periods    Periods
+  ID         Date         Date         Frequency  w/Precip    Missing    Malfunc.
+  -------------------------------------------------------------------------------
+
+  
+  ERROR 317: cannot open rainfall data file D:\2018\Download-2018\FileHistory\dickinsonre\MSI\Data\D\Bob\SWMMandSoftware\swmm_crada_files\Other SWMM5 Files\sample_rainfall_for_swmm5.dat.
+
+  Analysis begun on:  Wed Jan 02 04:45:58 2019
+  Analysis ended on:  Wed Jan 02 04:45:58 2019
+  Total elapsed time: < 1 sec

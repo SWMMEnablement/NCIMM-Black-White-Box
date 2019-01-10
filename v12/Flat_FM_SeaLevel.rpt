@@ -1,0 +1,1129 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.1 (Build 5.1.012)
+  --------------------------------------------------------------
+
+  Scenario Run :  BASE 
+  
+  WARNING 04: minimum elevation drop used for Conduit CDT-310
+  WARNING 04: minimum elevation drop used for Conduit CDT-310-1
+  WARNING 04: minimum elevation drop used for Conduit CDT-31A1D
+  WARNING 04: minimum elevation drop used for Conduit CDT-31A2D
+  WARNING 04: minimum elevation drop used for Conduit CDT-31A3D
+  WARNING 04: minimum elevation drop used for Conduit CDT-31A4D
+  WARNING 04: minimum elevation drop used for Conduit CDT-31A5D
+  WARNING 04: minimum elevation drop used for Conduit CDT-31F2
+  WARNING 04: minimum elevation drop used for Conduit CDT-31F21D
+  WARNING 04: minimum elevation drop used for Conduit CDT-31F22
+  WARNING 04: minimum elevation drop used for Conduit CDT-331AD
+  WARNING 04: minimum elevation drop used for Conduit CDT-35
+  WARNING 04: minimum elevation drop used for Conduit SGP37002000
+  WARNING 04: minimum elevation drop used for Conduit SPI3010031A
+  WARNING 04: minimum elevation drop used for Conduit SPI30100600
+  WARNING 04: minimum elevation drop used for Conduit SPI30101300
+  WARNING 04: minimum elevation drop used for Conduit SPI30101500
+  WARNING 04: minimum elevation drop used for Conduit SPI30101600
+  WARNING 04: minimum elevation drop used for Conduit SPI30101700
+  WARNING 04: minimum elevation drop used for Conduit SPI30101800
+  WARNING 04: minimum elevation drop used for Conduit SPI30101900
+  WARNING 04: minimum elevation drop used for Conduit SPI30102000
+  WARNING 04: minimum elevation drop used for Conduit SPI30102600
+  WARNING 04: minimum elevation drop used for Conduit SPI30102700
+  WARNING 04: minimum elevation drop used for Conduit SPI30102800
+  WARNING 04: minimum elevation drop used for Conduit SPI30102900
+  WARNING 04: minimum elevation drop used for Conduit SPI301031A1
+  WARNING 04: minimum elevation drop used for Conduit SPI301031A4
+  WARNING 04: minimum elevation drop used for Conduit SPI30109800
+  WARNING 04: minimum elevation drop used for Conduit SPI30131F22
+  WARNING 04: minimum elevation drop used for Conduit SPI30191200
+  WARNING 04: minimum elevation drop used for Conduit SPI30191300
+  WARNING 04: minimum elevation drop used for Conduit SPI30191600
+  WARNING 04: minimum elevation drop used for Conduit SPI30192100
+  WARNING 04: minimum elevation drop used for Conduit SPI30192200
+  WARNING 04: minimum elevation drop used for Conduit SPI30192300
+  WARNING 04: minimum elevation drop used for Conduit SPI30192500
+  WARNING 04: minimum elevation drop used for Conduit SPI30192600
+  WARNING 04: minimum elevation drop used for Conduit SPI30192800
+  WARNING 04: minimum elevation drop used for Conduit SPI30193100
+  WARNING 04: minimum elevation drop used for Conduit SPI30193200
+  WARNING 04: minimum elevation drop used for Conduit SPI30193300
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5001
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5004
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5005
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5006
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5007
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5008
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5009
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5010
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5011
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5012
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5013
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5014
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5015
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5016
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5017
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5018
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5019
+  WARNING 04: minimum elevation drop used for Conduit SPI301E5021
+  
+  *********************************************************
+  NOTE: The summary statistics displayed in this report are
+  based on results found at every computational time step,  
+  not just on results from each reporting time step.
+  *********************************************************
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... GPM
+  Process Models:
+    Rainfall/Runoff ........ NO
+    RDII ................... NO
+    Snowmelt ............... NO
+    Groundwater ............ NO
+    Flow Routing ........... YES
+    Ponding Allowed ........ NO
+    Water Quality .......... NO
+  Flow Routing Method ...... DYNWAVE
+  Starting Date ............ 01/01/2002 00:00:00
+  Ending Date .............. 01/02/2002 06:00:00
+  Antecedent Dry Days ...... 5.0
+  Report Time Step ......... 00:05:00
+  Routing Time Step ........ 1.00 sec
+  Variable Time Step ....... YES
+  Maximum Trials ........... 8
+  Number of Threads ........ 8
+  Head Tolerance ........... 0.000100 ft
+  
+  
+  **************************        Volume        Volume
+  Flow Routing Continuity        acre-feet      10^6 gal
+  **************************     ---------     ---------
+  Dry Weather Inflow .......         1.003         0.327
+  Wet Weather Inflow .......         0.000         0.000
+  Groundwater Inflow .......         0.000         0.000
+  RDII Inflow ..............         0.000         0.000
+  External Inflow ..........         0.000         0.000
+  External Outflow .........         1.128         0.368
+  Flooding Loss ............         0.000         0.000
+  Evaporation Loss .........         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000
+  Initial Stored Volume ....         0.637         0.208
+  Final Stored Volume ......         0.505         0.164
+  Continuity Error (%) .....         0.432
+  
+  
+  *************************
+  Highest Continuity Errors
+  *************************
+  Node SMH30190700 (-24.67%)
+  Node SMH30190600 (-20.55%)
+  Node SMH30118370 (-20.36%)
+  Node SMH30118160 (-19.13%)
+  Node EAC_SMH30100006 (-14.58%)
+  
+  
+  ***************************
+  Time-Step Critical Elements
+  ***************************
+  Link SPI30104700 (1.29%)
+  
+  
+  ********************************
+  Highest Flow Instability Indexes
+  ********************************
+  Link CDT-31A4D (121)
+  Link CDT-31A2D (49)
+  Link CDT-31A3D (43)
+  Link SPI301031A3 (31)
+  Link SPI301031A4 (29)
+  
+  
+  *************************
+  Routing Time Step Summary
+  *************************
+  Minimum Time Step           :     0.13 sec
+  Average Time Step           :     0.99 sec
+  Maximum Time Step           :     1.00 sec
+  Percent in Steady State     :     0.00
+  Average Iterations per Step :     8.00
+  Percent Not Converging      :   100.00
+  
+  
+  ******************
+  Node Depth Summary
+  ******************
+  
+  ---------------------------------------------------------------------------------
+                                 Average  Maximum  Maximum  Time of Max    Reported
+                                   Depth    Depth      HGL   Occurrence   Max Depth
+  Node                 Type         Feet     Feet     Feet  days hr:min        Feet
+  ---------------------------------------------------------------------------------
+  EAC_SMH30100001      JUNCTION     0.18     2.92    -5.41     0  00:06        2.87
+  EAC_SMH30100002      JUNCTION     0.03     3.55    -2.56     0  00:00        0.72
+  EAC_SMH30100003      JUNCTION     0.03     4.83    -0.47     0  00:00        0.42
+  EAC_SMH30100004      JUNCTION     0.03     6.89     2.58     0  00:00        0.39
+  EAC_SMH30100005      JUNCTION     0.03     7.24     3.27     0  00:00        0.33
+  EAC_SMH30100006      JUNCTION     0.03     7.52     5.18     0  00:00        0.28
+  EAC_SMH30100011      JUNCTION     0.15     4.00    -3.53     0  00:00        2.39
+  EAC_SMH30100012      JUNCTION     0.16     5.67    -1.00     0  00:00        1.93
+  EAC_SMH30100013      JUNCTION     0.14     7.61     2.00     0  00:00        1.30
+  EAC_SMH30100014      JUNCTION     0.13     7.71     2.35     0  00:00        1.12
+  EAC_SMH30100015      JUNCTION     0.14     7.65     3.07     0  00:00        0.60
+  EAC_SMH30100016      JUNCTION     0.14     7.35     3.63     0  00:00        0.43
+  EAC_SMH30100019      JUNCTION     0.15     3.85     1.15     0  00:00        0.40
+  JCT-10               JUNCTION    10.36    76.62    76.62     0  18:17       46.71
+  JCT-310              JUNCTION     8.02    10.32    10.32     0  00:31        8.65
+  JCT-310-1            JUNCTION     8.05    12.76    12.76     0  18:17        9.47
+  JCT-310-2            JUNCTION     8.34    16.48    16.48     0  00:00       15.02
+  JCT-312              JUNCTION     0.64   114.71   115.46     1  04:44       36.43
+  JCT-31A              JUNCTION    17.80   136.46   136.46     0  19:49      120.31
+  JCT-31A1             JUNCTION    12.85   146.96   146.96     0  00:00       78.98
+  JCT-31A1V            JUNCTION    12.39    88.47    88.47     0  00:00       73.49
+  JCT-31A2             JUNCTION     5.75    47.37    47.37     0  18:49       44.84
+  JCT-31A2V            JUNCTION     5.49    53.98    53.98     0  18:49       44.51
+  JCT-31A3             JUNCTION     5.56    54.12    54.12     0  00:00       31.53
+  JCT-31A3V            JUNCTION     5.42    44.37    44.37     0  00:00       29.79
+  JCT-31A4             JUNCTION     1.41    46.54    46.54     0  14:48       42.59
+  JCT-31A4V            JUNCTION     1.40    48.51    48.51     0  19:22       40.31
+  JCT-31A5             JUNCTION     0.12    51.97    51.97     0  00:00       41.44
+  JCT-31A5V            JUNCTION     0.07    54.96    54.96     0  20:53       38.03
+  JCT-31AV             JUNCTION    16.88   131.75   131.75     0  00:09      113.40
+  JCT-31F1             JUNCTION     0.13    61.79    61.79     0  00:00       27.56
+  JCT-31F2             JUNCTION     2.59    39.21    39.21     0  00:00       35.45
+  JCT-31F21            JUNCTION     0.42    47.75    47.75     0  00:00       22.91
+  JCT-31F21V           JUNCTION     0.23    47.82    47.82     0  00:00        0.55
+  JCT-31F22            JUNCTION     0.63   104.12   104.12     0  00:00       10.62
+  JCT-31F22V           JUNCTION     0.49    72.57    72.57     0  00:00        3.56
+  JCT-31F2V            JUNCTION     1.29    38.49    38.49     0  00:00       30.30
+  SFT30100200          JUNCTION     0.23     4.58     3.51     0  00:00        0.43
+  SFT30100300          JUNCTION     0.22    24.56    23.97     0  00:00        0.50
+  SFT30100400          JUNCTION     0.22    25.13    24.56     0  00:00        0.50
+  SFT30100600          JUNCTION     0.22    48.33    48.33     0  00:00        0.57
+  SFT30100700          JUNCTION     0.23    47.84    47.82     0  00:00        0.57
+  SFT30100800          JUNCTION     0.22    48.32    48.32     0  00:00        0.57
+  SFT30101000          JUNCTION     1.20    38.32    38.30     0  00:00       30.03
+  SFT30101300          JUNCTION     0.42    65.75    65.75     0  00:00        0.65
+  SFT30101500          JUNCTION     0.36    55.62    55.62     0  00:00        0.63
+  SFT30101600          JUNCTION     0.42    65.20    65.20     0  00:00        0.65
+  SFT30101700          JUNCTION     0.45    71.79    71.79     0  00:00        0.69
+  SFT30101800          JUNCTION     0.46    71.94    71.94     0  00:00        3.17
+  SFT30101900          JUNCTION     0.46    72.03    72.03     0  00:00        3.32
+  SFT30102000          JUNCTION     0.48    72.42    72.42     0  00:00        3.14
+  SFT30102600          JUNCTION    16.53   131.23   131.23     0  00:09      110.27
+  SFT30102700          JUNCTION    16.63   132.41   132.41     0  00:09      111.40
+  SFT30102800          JUNCTION    16.64   132.18   132.18     0  00:09      111.41
+  SFT30102900          JUNCTION    16.68   132.22   132.22     0  00:09      111.77
+  SFT30103100          JUNCTION     5.29    53.52    53.58     0  18:49       43.74
+  SFT30104500          JUNCTION     0.58    27.27    26.07     0  20:36       11.62
+  SFT30104600          JUNCTION     0.54    25.11    23.83     0  00:00       10.33
+  SFT30104700          JUNCTION     0.44    18.63    17.13     0  00:47        6.81
+  SFT30107200          JUNCTION     0.43    17.85    16.33     0  00:47        6.54
+  SFT30109800          JUNCTION     8.98    29.78    29.78     0  00:00       24.95
+  SFT30122000          JUNCTION     1.40    48.44    48.44     0  14:48       40.08
+  SFT30123000          JUNCTION     5.14    41.42    41.59     0  17:45       28.17
+  SFT30123100          JUNCTION     4.02    31.67    32.51     0  18:55       21.85
+  SFT30123200          JUNCTION     3.32    29.62    31.05     0  18:55       20.00
+  SFT30191000          JUNCTION     0.01     0.50     3.86     0  00:00        0.09
+  SFT30191200          JUNCTION    12.15    86.49    86.49     0  00:00       70.77
+  SFT30191300          JUNCTION    11.99    85.06    85.06     0  00:00       68.93
+  SFT30191600          JUNCTION    12.23    87.12    87.12     0  00:00       71.60
+  SFT30191800          JUNCTION     1.84    26.73    29.42     0  20:48       16.09
+  SFT30192000          JUNCTION     1.72    26.12    28.93     0  20:48       15.77
+  SFT30192100          JUNCTION    11.97    84.85    84.85     0  00:00       68.71
+  SFT30192200          JUNCTION    10.44    71.57    71.57     0  00:00       52.37
+  SFT30192300          JUNCTION    10.43    71.51    71.51     0  00:00       52.31
+  SFT30192500          JUNCTION    13.83   215.55   215.55     0  00:09       83.90
+  SFT30192600          JUNCTION    15.28   148.68   148.68     0  00:09       97.81
+  SFT30192800          JUNCTION    10.43    71.54    71.54     0  00:00       52.31
+  SFT30193100          JUNCTION    11.99    85.10    85.10     0  00:00       68.98
+  SFT30193200          JUNCTION    11.99    85.09    85.09     0  00:00       68.96
+  SFT30193300          JUNCTION    11.99    85.07    85.07     0  00:00       68.95
+  SFT301E5001          JUNCTION    10.12    65.89    65.89     0  00:00       48.25
+  SFT301E5002          JUNCTION     0.06     9.94     8.77     0  00:00        0.37
+  SFT301E5003          JUNCTION    10.17    24.87    23.12     0  19:32       17.54
+  SFT301E5004          JUNCTION     8.98    29.66    29.66     0  00:00       24.83
+  SFT301E5005          JUNCTION     8.88    27.39    27.39     0  00:00       22.64
+  SFT301E5006          JUNCTION     9.12    33.50    33.50     0  00:00       27.83
+  SFT301E5007          JUNCTION     9.22    38.14    38.14     0  00:00       30.04
+  SFT301E5008          JUNCTION     9.22    38.34    38.34     0  00:00       30.15
+  SFT301E5009          JUNCTION     9.41    72.98    72.98     0  00:09       34.14
+  SFT301E5010          JUNCTION     9.53    57.01    57.01     0  00:09       36.83
+  SFT301E5011          JUNCTION     9.74    56.55    56.55     0  00:00       41.39
+  SFT301E5012          JUNCTION     9.78    58.00    58.00     0  00:00       42.30
+  SFT301E5013          JUNCTION     9.79    58.35    58.35     0  00:00       42.54
+  SFT301E5014          JUNCTION     9.84    59.39    59.39     0  00:00       43.31
+  SFT301E5015          JUNCTION     9.93    61.63    61.63     0  00:00       44.98
+  SFT301E5016          JUNCTION    10.13    66.11    66.11     0  00:00       48.39
+  SFT301E5017          JUNCTION    10.39    67.91    67.91     0  00:00       50.87
+  SFT301E5018          JUNCTION    12.28   252.82   252.82     0  00:09       69.00
+  SFT301E5019          JUNCTION    15.22   148.86   148.86     0  00:09       97.19
+  SFT301E5020          JUNCTION     0.23    21.88    20.56     0  00:48        6.33
+  SFT301E5021          JUNCTION    10.00    63.37    63.37     0  00:00       46.30
+  SFT37006500          JUNCTION     0.05    51.63    51.56     0  00:00        0.44
+  SFT37006600          JUNCTION     0.06    42.44    42.22     0  00:00        0.35
+  SFT37006700          JUNCTION     0.06    29.64    29.09     0  00:00        0.47
+  SFT37006800          JUNCTION     0.06    20.73    19.85     0  00:00        0.47
+  SFT37006900          JUNCTION     0.06    16.41    15.40     0  00:00        0.45
+  SFT37007000          JUNCTION     0.06    11.27    10.13     0  00:00        0.40
+  SFT37007100          JUNCTION     0.32    11.73     9.89     0  00:48        1.63
+  SFT37007300          JUNCTION    22.94    86.86    74.04     0  18:17       55.76
+  SFT37007400          JUNCTION    16.47    49.11    41.30     0  18:17       30.56
+  SFT37007500          JUNCTION     0.06    18.86    17.92     0  00:00        0.46
+  SFT37007600          JUNCTION     8.00     8.00    -5.56     0  00:00        8.00
+  SMH30116140          JUNCTION     0.08     0.83    -2.17     0  00:00        0.63
+  SMH30116150          JUNCTION     0.10     3.16     0.99     0  00:00        0.28
+  SMH30116170          JUNCTION     0.10     3.13     1.97     0  00:00        0.21
+  SMH30118160          JUNCTION     0.01    13.29    12.64     0  00:00        0.15
+  SMH30118300          JUNCTION     0.10     7.29     5.03     0  00:00        0.61
+  SMH30118350          JUNCTION     0.10     7.83     6.58     0  00:00        0.67
+  SMH30118360          JUNCTION     0.10     8.00     7.75     0  00:00        0.81
+  SMH30118370          JUNCTION     0.02     8.00     8.15     0  00:00        0.55
+  SMH30118380          JUNCTION     0.01     8.00     9.40     0  00:00        0.29
+  SMH30118390          JUNCTION     0.08     8.00     8.05     0  00:00        0.54
+  SMH30118400          JUNCTION     0.08     8.00     9.00     0  00:00        0.26
+  SMH30190400          JUNCTION     0.01     8.09     6.51     0  00:00        0.13
+  SMH30190600          JUNCTION     0.01     7.74     5.84     0  00:00        0.20
+  SMH30190700          JUNCTION     0.01     4.59     1.49     0  00:00        0.27
+  SMH30190800          JUNCTION     0.02     2.84    -1.33     0  00:00        0.55
+  SMH301E0007          JUNCTION     0.03     8.00     6.78     0  00:00        0.21
+  SMH301E0020          JUNCTION     0.14     4.42     2.52     0  00:00        0.36
+  SMH37001700          JUNCTION     0.08     6.69     4.23     0  00:00        0.56
+  SMH37001800          JUNCTION     0.13     6.05     3.34     0  00:00        0.69
+  SMH37001900          JUNCTION     0.08     4.86     2.10     0  00:00        0.43
+  SMH37002000          JUNCTION     0.16     3.51     0.34     0  00:00        0.75
+  OFALL-310            OUTFALL      8.00     8.00     8.00     0  00:00        8.00
+  SLS3010031A          STORAGE      3.98     5.01    -4.39     0  15:42        5.00
+  SLS3010031G          STORAGE      4.04     8.87    -5.57     0  00:06        8.80
+  SLS301031A1          STORAGE      4.00     6.45    -3.38     0  00:03        6.04
+  SLS301031A2          STORAGE      2.75     3.50    -1.41     0  15:00        3.50
+  SLS301031A3          STORAGE      4.01     5.50   -10.86     0  00:00        4.99
+  SLS301031A4          STORAGE      1.98     2.50    -0.70     0  19:22        2.50
+  SLS301031A5          STORAGE      3.25     4.00     0.97     0  17:11        4.00
+  SLS301031F1          STORAGE      2.73     3.50    -3.20     0  14:01        3.49
+  SLS301031F2          STORAGE      2.28     6.70    -2.24     0  00:03        6.62
+  SLS30131F21          STORAGE      1.98     2.50    -1.90     0  16:46        2.49
+  SLS30131F22          STORAGE      3.22     4.00    -9.80     0  18:41        4.00
+  
+  
+  *******************
+  Node Inflow Summary
+  *******************
+  
+  -------------------------------------------------------------------------------------------------
+                                  Maximum  Maximum                  Lateral       Total        Flow
+                                  Lateral    Total  Time of Max      Inflow      Inflow     Balance
+                                   Inflow   Inflow   Occurrence      Volume      Volume       Error
+  Node                 Type           GPM      GPM  days hr:min    10^6 gal    10^6 gal     Percent
+  -------------------------------------------------------------------------------------------------
+  EAC_SMH30100001      JUNCTION      0.00  1881.08     0  00:01           0       0.105      -1.914
+  EAC_SMH30100002      JUNCTION      0.00   704.25     0  00:00           0     0.00961     -11.075
+  EAC_SMH30100003      JUNCTION      0.00   500.28     0  00:01           0     0.00872      -9.197
+  EAC_SMH30100004      JUNCTION      0.00   496.40     0  00:01           0     0.00826      -5.346
+  EAC_SMH30100005      JUNCTION      0.00   464.39     0  00:01           0     0.00757      -8.326
+  EAC_SMH30100006      JUNCTION      0.00   449.27     0  00:00           0     0.00661     -12.723
+  EAC_SMH30100011      JUNCTION      0.00  1016.50     0  00:01           0      0.0921      -2.051
+  EAC_SMH30100012      JUNCTION      0.00  1017.52     0  00:01           0      0.0899      -2.395
+  EAC_SMH30100013      JUNCTION      0.00  1015.50     0  00:01           0      0.0886      -1.433
+  EAC_SMH30100014      JUNCTION      0.00  1059.31     0  00:00           0      0.0876      -1.226
+  EAC_SMH30100015      JUNCTION      0.00  1012.86     0  00:01           0      0.0859      -1.946
+  EAC_SMH30100016      JUNCTION      0.00   684.64     0  00:01           0      0.0842      -1.958
+  EAC_SMH30100019      JUNCTION      0.00   570.62     0  00:00           0      0.0829      -1.572
+  JCT-10               JUNCTION      0.00   963.49     0  00:09           0        0.15      -3.772
+  JCT-310              JUNCTION      0.00  2503.78     0  00:00           0       0.575       0.007
+  JCT-310-1            JUNCTION      0.00  2503.52     0  00:00           0       0.574       0.003
+  JCT-310-2            JUNCTION      0.00  2503.12     0  00:00           0       0.591      -0.011
+  JCT-312              JUNCTION      0.00   308.94     1  04:44           0     0.00135       4.119
+  JCT-31A              JUNCTION      0.00  1604.83     1  01:54           0       0.144      -0.229
+  JCT-31A1             JUNCTION      0.00   750.00     0  00:00           0      0.0907       0.060
+  JCT-31A1V            JUNCTION      0.00   771.77     0  00:00           0      0.0937       0.024
+  JCT-31A2             JUNCTION      0.00   249.14     1  03:25           0      0.0345      -0.151
+  JCT-31A2V            JUNCTION      0.00   218.90     0  12:52           0      0.0356      -0.356
+  JCT-31A3             JUNCTION      0.00   436.53     0  20:17           0       0.051      -0.030
+  JCT-31A3V            JUNCTION      0.00   436.62     0  20:17           0      0.0521      -0.396
+  JCT-31A4             JUNCTION      0.00   300.31     1  04:44           0     0.00113       0.311
+  JCT-31A4V            JUNCTION      0.00   298.51     1  04:44           0     0.00144      -1.035
+  JCT-31A5             JUNCTION      0.00   525.00     0  12:49           0     0.00162      -4.733
+  JCT-31A5V            JUNCTION      0.00   404.10     0  20:53           0      0.0017     -11.276
+  JCT-31AV             JUNCTION      0.00  1592.65     1  01:54           0       0.148      -0.626
+  JCT-31F1             JUNCTION      0.00   525.00     0  03:48           0     0.00361      -3.833
+  JCT-31F2             JUNCTION      0.00   525.00     0  01:28           0      0.0784      -0.449
+  JCT-31F21            JUNCTION      0.00   525.00     0  01:23           0     0.00975      -2.635
+  JCT-31F21V           JUNCTION      0.00   467.75     0  00:37           0      0.0102      -2.380
+  JCT-31F22            JUNCTION      0.00   750.00     0  00:00           0      0.0229      -2.259
+  JCT-31F22V           JUNCTION      0.00   849.04     0  17:00           0      0.0239      -1.588
+  JCT-31F2V            JUNCTION      0.00   444.49     0  21:29           0      0.0809      -0.376
+  SFT30100200          JUNCTION      0.00   486.94     0  00:00           0      0.0417      -1.014
+  SFT30100300          JUNCTION      0.00   486.00     0  00:00           0      0.0413      -1.016
+  SFT30100400          JUNCTION      0.00   486.59     0  00:00           0      0.0408      -1.140
+  SFT30100600          JUNCTION      0.00    33.70     0  00:00           0    0.000402       0.000
+  SFT30100700          JUNCTION      0.00   535.38     0  00:37           0      0.0439      -1.123
+  SFT30100800          JUNCTION      0.00   474.27     0  00:00           0      0.0328      -3.302
+  SFT30101000          JUNCTION      0.00   520.75     0  00:46           0      0.0811      -0.794
+  SFT30101300          JUNCTION      0.00   650.99     0  00:24           0      0.0255      -2.745
+  SFT30101500          JUNCTION      0.00   473.71     0  00:00           0      0.0272      -6.201
+  SFT30101600          JUNCTION      0.00   628.57     0  00:24           0      0.0262      -3.540
+  SFT30101700          JUNCTION      0.00  1105.85     0  16:21           0      0.0252      -1.893
+  SFT30101800          JUNCTION      0.00  1165.43     0  19:35           0      0.0246      -2.864
+  SFT30101900          JUNCTION      0.00   972.18     0  19:35           0      0.0243      -1.946
+  SFT30102000          JUNCTION      0.00   949.62     0  18:17           0      0.0243      -1.074
+  SFT30102600          JUNCTION      0.00   964.35     0  00:09           0       0.193       0.088
+  SFT30102700          JUNCTION      0.00   780.19     0  16:28           0      0.0148      -1.168
+  SFT30102800          JUNCTION      0.00  1377.75     0  00:09           0       0.192       0.295
+  SFT30102900          JUNCTION      0.00  1523.96     0  16:28           0       0.157      -0.796
+  SFT30103100          JUNCTION      0.00   205.35     0  00:00           0      0.0371       0.429
+  SFT30104500          JUNCTION      0.00   276.65     0  16:53           0      0.0795      -1.652
+  SFT30104600          JUNCTION      0.00   330.93     0  16:33           0      0.0808      -0.271
+  SFT30104700          JUNCTION      0.00   268.61     0  16:53           0      0.0811      -0.190
+  SFT30107200          JUNCTION      0.00   313.86     0  00:47           0      0.0848      -0.426
+  SFT30109800          JUNCTION      0.00  1633.05     0  00:00           0       0.443       0.015
+  SFT30122000          JUNCTION      0.00   292.64     1  04:44           0     0.00142      -0.206
+  SFT30123000          JUNCTION      0.00   437.40     0  20:17           0      0.0531      -0.055
+  SFT30123100          JUNCTION      0.00   438.67     0  20:17           0      0.0534       0.078
+  SFT30123200          JUNCTION      0.00   440.12     0  20:47           0      0.0537       0.272
+  SFT30191000          JUNCTION      0.00   369.05     0  00:00           0      0.0503      -0.537
+  SFT30191200          JUNCTION      0.00   885.14     0  00:00           0       0.107       0.116
+  SFT30191300          JUNCTION      0.00   912.85     0  00:00           0       0.137       0.027
+  SFT30191600          JUNCTION      0.00   828.68     0  00:00           0         0.1      -0.063
+  SFT30191800          JUNCTION      0.00   441.77     0  22:43           0      0.0586       0.548
+  SFT30192000          JUNCTION      0.00   511.86     0  20:17           0      0.0567      -0.086
+  SFT30192100          JUNCTION      0.00   840.02     0  16:35           0       0.154       0.123
+  SFT30192200          JUNCTION      0.00   858.89     0  16:35           0       0.172       0.123
+  SFT30192300          JUNCTION      0.00   902.37     0  16:35           0       0.203       0.257
+  SFT30192500          JUNCTION      0.00   972.16     0  00:09           0        0.21       0.650
+  SFT30192600          JUNCTION      0.00   970.02     0  00:09           0       0.199       0.134
+  SFT30192800          JUNCTION      0.00   135.11     0  16:25           0      0.0043       0.876
+  SFT30193100          JUNCTION      0.00    11.39     0  20:33           0    0.000206      57.414
+  SFT30193200          JUNCTION      0.00    55.73     1  00:07           0     0.00155       0.227
+  SFT30193300          JUNCTION      0.00   316.44     1  00:07           0      0.0101       0.436
+  SFT301E5001          JUNCTION      0.00  1571.08     0  00:00           0       0.417       0.075
+  SFT301E5002          JUNCTION      0.00   397.30     0  00:00           0     0.00604      -1.744
+  SFT301E5003          JUNCTION      0.00   963.47     0  00:09           0       0.162      -0.010
+  SFT301E5004          JUNCTION      0.00  1636.08     0  00:00           0       0.445       0.024
+  SFT301E5005          JUNCTION      0.00  1640.11     0  00:00           0       0.447       0.004
+  SFT301E5006          JUNCTION      0.00  1632.63     0  00:00           0       0.441       0.037
+  SFT301E5007          JUNCTION      0.00  1626.80     0  00:00           0       0.438       0.033
+  SFT301E5008          JUNCTION      0.00  1622.38     0  00:00           0       0.433       0.033
+  SFT301E5009          JUNCTION      0.00  1621.80     0  00:00           0       0.431       0.142
+  SFT301E5010          JUNCTION      0.00  1621.03     0  00:00           0        0.43       0.106
+  SFT301E5011          JUNCTION      0.00  1618.49     0  00:00           0       0.428       0.164
+  SFT301E5012          JUNCTION      0.00  1607.97     0  00:00           0       0.424       0.088
+  SFT301E5013          JUNCTION      0.00  1596.97     0  00:00           0       0.419       0.115
+  SFT301E5014          JUNCTION      0.00  1592.99     0  00:00           0       0.415       0.473
+  SFT301E5015          JUNCTION      0.00  1589.80     0  00:00           0        0.41       0.680
+  SFT301E5016          JUNCTION      0.00  1009.74     1  00:48           0        0.22       1.125
+  SFT301E5017          JUNCTION      0.00   972.28     0  00:09           0       0.216       0.362
+  SFT301E5018          JUNCTION      0.00   972.25     0  00:09           0       0.215       1.293
+  SFT301E5019          JUNCTION      0.00   971.27     0  00:09           0       0.205       0.184
+  SFT301E5020          JUNCTION      0.00   176.35     0  00:47           0     0.00329      -8.656
+  SFT301E5021          JUNCTION      0.00  1586.53     0  00:00           0         0.4       0.358
+  SFT37006500          JUNCTION      0.00   502.23     0  18:23           0     0.00375      -8.300
+  SFT37006600          JUNCTION      0.00   442.04     1  00:10           0     0.00408     -10.316
+  SFT37006700          JUNCTION      0.00   373.62     0  00:00           0     0.00455     -11.082
+  SFT37006800          JUNCTION      0.00   373.64     0  00:00           0     0.00512      -6.273
+  SFT37006900          JUNCTION      0.00   380.97     0  00:00           0     0.00563      -3.968
+  SFT37007000          JUNCTION      0.00   388.09     0  00:00           0     0.00586      -2.966
+  SFT37007100          JUNCTION      0.00   270.72     0  00:30           0      0.0819      -0.350
+  SFT37007300          JUNCTION      0.00  1041.70     0  16:17           0       0.161       0.144
+  SFT37007400          JUNCTION      0.00   963.47     0  00:09           0       0.161       0.065
+  SFT37007500          JUNCTION      0.00   374.01     0  00:00           0     0.00546      -2.967
+  SFT37007600          JUNCTION      0.00     0.00     0  00:00           0           0       0.000 gal
+  SMH30116140          JUNCTION      0.00   761.16     0  00:01           0      0.0441      -1.507
+  SMH30116150          JUNCTION      0.00   709.14     0  00:00           0      0.0429      -2.670
+  SMH30116170          JUNCTION      0.00   486.99     0  00:00           0      0.0421      -1.766
+  SMH30118160          JUNCTION      0.00   272.64     0  00:00           0     0.00191     -16.056
+  SMH30118300          JUNCTION      0.00   486.76     0  00:01           0      0.0403      -1.025
+  SMH30118350          JUNCTION      0.00   486.74     0  00:01           0      0.0396      -1.726
+  SMH30118360          JUNCTION      0.00   486.72     0  00:01           0      0.0389      -1.931
+  SMH30118370          JUNCTION      0.00   284.74     0  00:03           0     0.00299     -16.913
+  SMH30118380          JUNCTION      0.00   267.50     0  00:00           0     0.00106     -67.212
+  SMH30118390          JUNCTION      0.00   217.93     0  00:00           0      0.0352      -0.220
+  SMH30118400          JUNCTION      0.00   205.35     0  00:00           0      0.0358      -3.352
+  SMH30190400          JUNCTION      0.00   272.64     0  00:00           0     0.00227     -11.044
+  SMH30190600          JUNCTION      0.00   432.58     0  00:00           0     0.00256     -17.044
+  SMH30190700          JUNCTION      0.00   464.02     0  00:00           0     0.00308     -19.791
+  SMH30190800          JUNCTION      0.00   496.28     0  00:01           0     0.00384     -11.611
+  SMH301E0007          JUNCTION      0.00   417.17     0  00:00           0     0.00615      -6.965
+  SMH301E0020          JUNCTION      0.00   256.77     0  00:03           0      0.0822      -0.818
+  SMH37001700          JUNCTION      0.00   489.04     0  00:03           0      0.0408      -0.442
+  SMH37001800          JUNCTION      0.00   490.50     0  00:00           0      0.0409      -0.374
+  SMH37001900          JUNCTION      0.00   492.53     0  00:00           0      0.0411      -0.398
+  SMH37002000          JUNCTION      0.00   521.96     0  00:00           0      0.0413      -0.462
+  OFALL-310            OUTFALL       0.00  2503.93     0  00:00           0       0.575       0.000
+  SLS3010031A          STORAGE     129.51   574.33     0  00:00       0.102       0.145       0.080
+  SLS3010031G          STORAGE      47.77  1904.44     0  00:01      0.0375       0.147      -0.056
+  SLS301031A1          STORAGE      43.55  2771.49     0  00:00      0.0342       0.091      -0.200
+  SLS301031A2          STORAGE      42.98    42.98     0  18:00      0.0338      0.0345       0.047
+  SLS301031A3          STORAGE      62.46    62.46     0  18:00      0.0491      0.0523       0.013
+  SLS301031A4          STORAGE       0.84     0.84     0  18:00    0.000663     0.00119       0.046
+  SLS301031A5          STORAGE       1.67     1.67     0  18:00     0.00131     0.00216       0.200
+  SLS301031F1          STORAGE       4.30     4.30     0  18:00     0.00338     0.00412       0.086
+  SLS301031F2          STORAGE      42.39  1000.03     0  00:00      0.0333      0.0792      -0.030
+  SLS30131F21          STORAGE      12.15    12.15     0  18:00     0.00955      0.0101       0.047
+  SLS30131F22          STORAGE      28.46    28.46     0  18:00      0.0224      0.0232       0.001
+  
+  
+  **********************
+  Node Surcharge Summary
+  **********************
+  
+  Surcharging occurs when water rises above the top of the highest conduit.
+  ---------------------------------------------------------------------
+                                               Max. Height   Min. Depth
+                                   Hours       Above Crown    Below Rim
+  Node                 Type      Surcharged           Feet         Feet
+  ---------------------------------------------------------------------
+  EAC_SMH30100001      JUNCTION        0.33          1.921        9.349
+  EAC_SMH30100002      JUNCTION        0.01          2.714        6.773
+  EAC_SMH30100003      JUNCTION        0.01          3.994        5.772
+  EAC_SMH30100004      JUNCTION        0.02          6.224        1.769
+  EAC_SMH30100005      JUNCTION        0.01          6.573        2.880
+  EAC_SMH30100006      JUNCTION        0.02          6.857        0.477
+  EAC_SMH30100011      JUNCTION        0.27          2.998        7.972
+  EAC_SMH30100012      JUNCTION        0.21          4.670        5.190
+  EAC_SMH30100013      JUNCTION        0.12          6.607        2.623
+  EAC_SMH30100014      JUNCTION        0.08          6.709        2.191
+  EAC_SMH30100015      JUNCTION        0.01          6.650        0.350
+  EAC_SMH30100016      JUNCTION        0.01          6.349        0.651
+  EAC_SMH30100019      JUNCTION        0.01          3.017        4.149
+  JCT-10               JUNCTION       29.32         75.954        0.000
+  JCT-310              JUNCTION       30.00          8.985        0.000
+  JCT-310-1            JUNCTION       30.00         11.430        0.000
+  JCT-310-2            JUNCTION       30.00         15.483        0.000
+  JCT-312              JUNCTION       25.07        114.209        0.000
+  JCT-31A              JUNCTION       30.00        135.956        0.000
+  JCT-31A1             JUNCTION       29.98        146.464        0.000
+  JCT-31A1V            JUNCTION       30.00         87.970        0.000
+  JCT-31A2             JUNCTION       28.73         47.035        0.000
+  JCT-31A2V            JUNCTION       28.95         53.646        0.000
+  JCT-31A3             JUNCTION       29.66         53.615        0.000
+  JCT-31A3V            JUNCTION       29.72         43.871        0.000
+  JCT-31A4             JUNCTION       30.00         46.209        0.000
+  JCT-31A4V            JUNCTION       29.92         48.006        0.000
+  JCT-31A5             JUNCTION        0.10         51.632        0.000
+  JCT-31A5V            JUNCTION        0.05         54.628        0.000
+  JCT-31AV             JUNCTION       26.22        131.087        0.000
+  JCT-31F1             JUNCTION        0.14         61.454        0.000
+  JCT-31F2             JUNCTION       12.01         38.875        0.000
+  JCT-31F21            JUNCTION        1.08         47.421        0.000
+  JCT-31F21V           JUNCTION        0.35         47.319        0.000
+  JCT-31F22            JUNCTION        7.12        103.619        0.000
+  JCT-31F22V           JUNCTION        0.48         71.901        0.000
+  JCT-31F2V            JUNCTION        3.25         37.987        0.000
+  SFT30100200          JUNCTION        0.03          4.080        3.420
+  SFT30100300          JUNCTION        0.07         24.057        0.000
+  SFT30100400          JUNCTION        0.08         24.635        0.000
+  SFT30100600          JUNCTION        0.15         47.831        0.000
+  SFT30100700          JUNCTION        0.16         47.344        0.000
+  SFT30100800          JUNCTION        0.02         47.652        0.000
+  SFT30101000          JUNCTION        1.10         37.821        0.000
+  SFT30101300          JUNCTION        0.05         65.080        0.000
+  SFT30101500          JUNCTION        0.03         54.957        0.000
+  SFT30101600          JUNCTION        0.05         64.529        0.000
+  SFT30101700          JUNCTION        0.09         71.126        0.000
+  SFT30101800          JUNCTION        0.29         71.276        0.000
+  SFT30101900          JUNCTION        0.32         71.364        0.000
+  SFT30102000          JUNCTION        0.44         71.750        0.000
+  SFT30102600          JUNCTION       27.27        130.559        0.000
+  SFT30102700          JUNCTION       26.41        131.743        0.000
+  SFT30102800          JUNCTION       26.79        131.515        0.000
+  SFT30102900          JUNCTION       26.17        131.553        0.000
+  SFT30103100          JUNCTION       27.62         53.191        0.000
+  SFT30104500          JUNCTION        3.12         26.770        0.000
+  SFT30104600          JUNCTION        2.66         24.614        0.000
+  SFT30104700          JUNCTION        2.52         18.135        0.000
+  SFT30107200          JUNCTION        2.46         17.353        0.000
+  SFT30109800          JUNCTION       29.99         28.452        0.000
+  SFT30122000          JUNCTION       29.95         47.938        0.000
+  SFT30123000          JUNCTION       29.76         40.917        0.000
+  SFT30123100          JUNCTION       29.99         31.007        0.000
+  SFT30123200          JUNCTION       30.00         28.954        0.000
+  SFT30191000          JUNCTION        0.01          0.000        7.500
+  SFT30191200          JUNCTION       28.00         85.821        0.000
+  SFT30191300          JUNCTION       29.19         84.392        0.000
+  SFT30191600          JUNCTION       27.54         86.456        0.000
+  SFT30191800          JUNCTION        2.56         26.059        0.000
+  SFT30192000          JUNCTION        2.33         25.457        0.000
+  SFT30192100          JUNCTION       29.93         84.188        0.000
+  SFT30192200          JUNCTION       27.80         70.571        0.000
+  SFT30192300          JUNCTION       28.52         70.510        0.000
+  SFT30192500          JUNCTION       29.58        214.879        0.000
+  SFT30192600          JUNCTION       28.40        148.011        0.000
+  SFT30192800          JUNCTION       30.00         70.871        0.000
+  SFT30193100          JUNCTION       29.98         84.854        0.000
+  SFT30193200          JUNCTION       30.00         84.758        0.000
+  SFT30193300          JUNCTION       30.00         84.574        0.000
+  SFT301E5001          JUNCTION       27.36         64.557        0.000
+  SFT301E5002          JUNCTION        0.02          9.445        0.000
+  SFT301E5003          JUNCTION       30.00         23.874        0.000
+  SFT301E5004          JUNCTION       30.00         28.325        0.000
+  SFT301E5005          JUNCTION       30.00         26.059        0.000
+  SFT301E5006          JUNCTION       30.00         32.162        0.000
+  SFT301E5007          JUNCTION       30.00         36.802        0.000
+  SFT301E5008          JUNCTION       29.99         37.006        0.000
+  SFT301E5009          JUNCTION       30.00         71.644        0.000
+  SFT301E5010          JUNCTION       30.00         55.678        0.000
+  SFT301E5011          JUNCTION       30.00         55.218        0.000
+  SFT301E5012          JUNCTION       29.98         56.663        0.000
+  SFT301E5013          JUNCTION       29.87         57.017        0.000
+  SFT301E5014          JUNCTION       29.84         58.060        0.000
+  SFT301E5015          JUNCTION       29.72         60.301        0.000
+  SFT301E5016          JUNCTION       29.99         65.106        0.000
+  SFT301E5017          JUNCTION       29.98         67.247        0.000
+  SFT301E5018          JUNCTION       29.71        252.148        0.000
+  SFT301E5019          JUNCTION       29.26        148.189        0.000
+  SFT301E5020          JUNCTION        0.45         21.382        0.000
+  SFT301E5021          JUNCTION       29.21         62.041        0.000
+  SFT37006500          JUNCTION        0.03         51.133        0.000
+  SFT37006600          JUNCTION        0.02         41.940        0.000
+  SFT37006700          JUNCTION        0.04         29.137        0.000
+  SFT37006800          JUNCTION        0.03         20.226        0.000
+  SFT37006900          JUNCTION        0.03         15.915        0.000
+  SFT37007000          JUNCTION        0.02         10.774        0.000
+  SFT37007100          JUNCTION        0.39         11.227        0.000
+  SFT37007300          JUNCTION       30.00         86.188        0.000
+  SFT37007400          JUNCTION       30.00         48.112        0.000
+  SFT37007500          JUNCTION        0.03         18.360        0.000
+  SFT37007600          JUNCTION       30.00          8.000        0.000
+  SMH30116140          JUNCTION        0.01          0.000        7.497
+  SMH30116150          JUNCTION        0.01          2.326        4.841
+  SMH30116170          JUNCTION        0.01          2.301        4.896
+  SMH30118160          JUNCTION        0.02         12.790        0.000
+  SMH30118300          JUNCTION        0.05          6.622        1.871
+  SMH30118350          JUNCTION        0.08          7.160        0.173
+  SMH30118360          JUNCTION        0.11          7.333        0.000
+  SMH30118370          JUNCTION        0.06          7.333        0.000
+  SMH30118380          JUNCTION        0.02          7.333        0.000
+  SMH30118390          JUNCTION        0.06          7.333        0.000
+  SMH30118400          JUNCTION        0.02          7.333        0.000
+  SMH30190400          JUNCTION        0.01          7.423        0.481
+  SMH30190600          JUNCTION        0.01          7.074        1.020
+  SMH30190700          JUNCTION        0.01          3.928        8.186
+  SMH30190800          JUNCTION        0.04          2.176        8.487
+  SMH301E0007          JUNCTION        0.01          7.333        0.000
+  SMH301E0020          JUNCTION        0.01          3.583        3.583
+  SMH37001700          JUNCTION        0.02          6.020        2.704
+  SMH37001800          JUNCTION        0.14          5.384        3.979
+  SMH37001900          JUNCTION        0.01          4.190        4.973
+  SMH37002000          JUNCTION        0.17          2.846        6.307
+  
+  
+  *********************
+  Node Flooding Summary
+  *********************
+  
+  Flooding refers to all water that overflows a node, whether it ponds or not.
+  --------------------------------------------------------------------------
+                                                             Total   Maximum
+                                 Maximum   Time of Max       Flood    Ponded
+                        Hours       Rate    Occurrence      Volume     Depth
+  Node                 Flooded       GPM   days hr:min    10^6 gal      Feet
+  --------------------------------------------------------------------------
+  SMH30118160             0.01      1.11      0  00:00       0.000     5.290
+  SMH30118360             0.01      1.82      0  00:00       0.000     0.000
+  SMH30118370             0.01      1.85      0  00:00       0.000     0.000
+  SMH30118380             0.01     17.19      0  00:00       0.000     0.000
+  SMH30118400             0.01     47.40      0  00:00       0.000     0.000
+  SMH301E0007             0.01     61.90      0  00:00       0.000     0.000
+  
+  
+  **********************
+  Storage Volume Summary
+  **********************
+  
+  --------------------------------------------------------------------------------------------------
+                         Average     Avg  Evap Exfil       Maximum     Max    Time of Max    Maximum
+                          Volume    Pcnt  Pcnt  Pcnt        Volume    Pcnt     Occurrence    Outflow
+  Storage Unit          1000 ft3    Full  Loss  Loss      1000 ft3    Full    days hr:min        GPM
+  --------------------------------------------------------------------------------------------------
+  SLS3010031A              0.200      24     0     0         0.252      30       0  15:42    1604.83
+  SLS3010031G              0.317      20     0     0         0.696      43       0  00:06     963.49
+  SLS301031A1              0.201      23     0     0         0.324      37       0  00:03     750.00
+  SLS301031A2              0.078      23     0     0         0.099      30       0  15:00     249.14
+  SLS301031A3              0.315      17     0     0         0.432      23       0  00:00     436.53
+  SLS301031A4              0.056      16     0     0         0.071      20       0  19:22     300.31
+  SLS301031A5              0.092      21     0     0         0.113      26       0  17:11     525.00
+  SLS301031F1              0.077      22     0     0         0.099      29       0  14:01     525.00
+  SLS301031F2              0.115      16     0     0         0.337      47       0  00:03     525.00
+  SLS30131F21              0.056      21     0     0         0.071      26       0  16:46     525.00
+  SLS30131F22              0.091      17     0     0         0.113      21       0  18:41     750.00
+  
+  
+  ***********************
+  Outfall Loading Summary
+  ***********************
+  
+  -----------------------------------------------------------
+                         Flow       Avg       Max       Total
+                         Freq      Flow      Flow      Volume
+  Outfall Node           Pcnt       GPM       GPM    10^6 gal
+  -----------------------------------------------------------
+  OFALL-310             99.77    322.11   2503.93       0.575
+  -----------------------------------------------------------
+  System                99.77    322.11   2503.93       0.575
+  
+  
+  ********************
+  Link Flow Summary
+  ********************
+  
+  -----------------------------------------------------------------------------
+                                 Maximum  Time of Max   Maximum    Max/    Max/
+                                  |Flow|   Occurrence   |Veloc|    Full    Full
+  Link                 Type          GPM  days hr:min    ft/sec    Flow   Depth
+  -----------------------------------------------------------------------------
+  CDT-310              CONDUIT   2503.78     0  00:00      4.00   33.29    1.00
+  CDT-310-1            CONDUIT   2503.93     0  00:00      4.00   28.77    1.00
+  CDT-312              CONDUIT    267.50     0  00:00      3.55    5.94    1.00
+  CDT-31A1D            CONDUIT    771.77     0  00:00      8.76  112.49    1.00
+  CDT-31A2D            CONDUIT    218.90     0  12:52      5.59   78.07    1.00
+  CDT-31A3D            CONDUIT    436.62     0  20:17      4.95   63.64    1.00
+  CDT-31A4D            CONDUIT    298.51     1  04:44      7.62  106.46    1.00
+  CDT-31A5D            CONDUIT    404.10     0  20:53     14.65  144.12    1.00
+  CDT-31F1D            CONDUIT    502.23     0  18:23     16.51   19.37    1.00
+  CDT-31F2             CONDUIT    444.49     0  21:29     11.49  158.52    1.00
+  CDT-31F21D           CONDUIT    467.75     0  00:37     12.27  166.82    1.00
+  CDT-31F22            CONDUIT    849.04     0  17:00     10.93  123.75    1.00
+  CDT-331AD            CONDUIT   1592.65     1  01:54     18.07  232.13    1.00
+  CDT-35               CONDUIT   2503.52     0  00:00     15.98  112.54    1.00
+  EAC_SGP30100003      CONDUIT    704.25     0  00:00      3.37    0.94    1.00
+  EAC_SGP30100006      CONDUIT    464.39     0  00:01      3.11    1.04    1.00
+  EAC_SGP30100013      CONDUIT   1017.52     0  00:01      2.89    0.94    1.00
+  EAC_SGP30100014      CONDUIT   1015.50     0  00:01      2.88    0.76    1.00
+  EAC_SGP30100015      CONDUIT   1059.31     0  00:00      3.02    0.96    1.00
+  EAC_SGP30100016      CONDUIT   1012.86     0  00:01      3.14    0.92    1.00
+  EAC_SGP30100019      CONDUIT    684.64     0  00:01      3.13    1.01    1.00
+  EAC_SPG30100001      CONDUIT   1880.89     0  00:01      5.50    1.91    1.00
+  EAC_SPG30100002      CONDUIT    928.63     0  00:00      3.96    0.87    1.00
+  EAC_SPG30100004      CONDUIT    500.28     0  00:01      3.47    1.08    1.00
+  EAC_SPG30100005      CONDUIT    496.40     0  00:01      3.22    1.03    1.00
+  EAC_SPG30100011      CONDUIT   1015.74     0  00:01      2.88    0.92    1.00
+  EAC_SPG30100012      CONDUIT   1016.50     0  00:01      2.88    1.02    1.00
+  SGP30116140          CONDUIT    979.14     0  00:00      5.61    0.75    0.93
+  SGP30116150          CONDUIT    761.16     0  00:01      3.94    1.01    1.00
+  SGP30116170          CONDUIT    709.14     0  00:00      3.12    0.96    1.00
+  SGP30118160          CONDUIT    272.64     0  00:00      3.44    1.25    1.00
+  SGP30118300          CONDUIT    489.04     0  00:03      3.17    1.22    1.00
+  SGP30118350          CONDUIT    486.76     0  00:01      3.11    1.20    1.00
+  SGP30118360          CONDUIT    486.74     0  00:01      3.11    1.20    1.00
+  SGP30118370          CONDUIT    285.21     0  00:05      2.10    0.64    1.00
+  SGP30118380          CONDUIT    284.74     0  00:03      2.14    0.64    1.00
+  SGP30118390          CONDUIT    216.58     0  00:00      2.58    0.49    1.00
+  SGP30118400          CONDUIT    217.93     0  00:00      2.80    0.49    1.00
+  SGP30190400          CONDUIT    432.58     0  00:00      3.19    0.70    1.00
+  SGP30190600          CONDUIT    464.02     0  00:00      3.10    1.04    1.00
+  SGP30190700          CONDUIT    496.28     0  00:01      3.32    1.08    1.00
+  SGP30190800          CONDUIT    515.39     0  00:01      3.64    1.12    1.00
+  SGP301E0007          CONDUIT    449.27     0  00:00      2.97    1.01    1.00
+  SGP301E0020          CONDUIT    570.62     0  00:00      2.59    0.84    1.00
+  SGP37001700          CONDUIT    490.50     0  00:00      3.13    0.89    1.00
+  SGP37001800          CONDUIT    492.53     0  00:00      3.37    2.05    1.00
+  SGP37001900          CONDUIT    521.96     0  00:00      3.43    0.78    1.00
+  SGP37002000          CONDUIT    510.49     0  00:00      3.50   15.19    0.88
+  SPI30100200          CONDUIT    486.99     0  00:00      5.53    6.94    1.00
+  SPI30100300          CONDUIT    486.94     0  00:00      5.53    6.94    1.00
+  SPI3010031A          CONDUIT   1523.96     0  16:28      9.73  100.80    1.00
+  SPI30100400          CONDUIT    486.00     0  00:00      5.51    6.92    1.00
+  SPI30100600          CONDUIT     56.81     0  00:01      0.64    4.00    1.00
+  SPI30100700          CONDUIT    486.59     0  00:00      5.52    6.93    1.00
+  SPI30100800          CONDUIT    468.09     0  00:00      5.31    5.09    1.00
+  SPI30101000          CONDUIT    276.65     0  16:53      3.22    4.52    1.00
+  SPI30101300          CONDUIT    628.57     0  00:24      4.14   34.75    1.00
+  SPI30101500          CONDUIT    474.27     0  00:00      3.03  108.89    1.00
+  SPI30101600          CONDUIT    473.71     0  00:00      3.02  123.18    1.00
+  SPI30101700          CONDUIT    650.99     0  00:24      4.17  131.86    1.00
+  SPI30101800          CONDUIT   1105.85     0  16:21      7.77   30.31    1.00
+  SPI30101900          CONDUIT   1165.43     0  19:35      7.62   24.48    1.00
+  SPI30102000          CONDUIT    972.18     0  19:35      6.67   46.26    1.00
+  SPI30102600          CONDUIT    970.02     0  00:09      6.19  189.56    1.00
+  SPI30102700          CONDUIT    780.19     0  16:28      4.98   27.15    1.00
+  SPI30102800          CONDUIT    964.35     0  00:09      6.16   50.18    1.00
+  SPI30102900          CONDUIT   1377.75     0  00:09      8.79   39.97    1.00
+  SPI30103100          CONDUIT    205.35     0  00:00      5.46    6.16    1.00
+  SPI301031A1          CONDUIT    828.68     0  00:00      9.40   68.52    1.00
+  SPI301031A2          CONDUIT    205.35     0  00:00      5.24    6.16    1.00
+  SPI301031A3          CONDUIT    437.40     0  20:17      4.96    3.60    1.00
+  SPI301031A4          CONDUIT    292.64     1  04:44      3.32   30.27    1.00
+  SPI301031A5          CONDUIT    272.64     0  00:00      8.87    7.30    1.00
+  SPI301031F2          CONDUIT    520.75     0  00:46      7.53    8.52    1.00
+  SPI30104500          CONDUIT    330.93     0  16:33      3.80    5.41    1.00
+  SPI30104600          CONDUIT    268.61     0  16:53      3.07    4.39    1.00
+  SPI30104700          CONDUIT    313.86     0  00:47      3.56    5.13    1.00
+  SPI30109800          CONDUIT   1636.08     0  00:00      2.61   12.65    1.00
+  SPI30122000          CONDUIT    308.93     1  04:44      3.51    3.53    1.00
+  SPI30123000          CONDUIT    438.67     0  20:17      4.98    3.61    1.00
+  SPI30123100          CONDUIT    440.12     0  20:47      2.81    1.72    1.00
+  SPI30123200          CONDUIT    441.77     0  22:43      2.82    1.72    1.00
+  SPI30131F21          CONDUIT    489.26     0  00:37      7.86    6.97    1.00
+  SPI30131F22          CONDUIT    949.62     0  18:17      6.34   27.55    1.00
+  SPI30191000          CONDUIT   2299.16     0  00:00     32.80    0.40    1.00
+  SPI30191200          CONDUIT    912.85     0  00:00      5.83   76.61    1.00
+  SPI30191300          CONDUIT    840.02     0  16:35      5.36   23.02    1.00
+  SPI30191600          CONDUIT    885.14     0  00:00      5.65   48.53    1.00
+  SPI30191800          CONDUIT    511.86     0  20:17      3.39    2.00    1.00
+  SPI30192000          CONDUIT    369.05     0  00:00      7.43    3.03    1.00
+  SPI30192100          CONDUIT    858.89     0  16:35      5.48  239.76    1.00
+  SPI30192200          CONDUIT    886.82     0  16:35      2.52   10.37    1.00
+  SPI30192300          CONDUIT   1009.74     1  00:48      2.86  109.39    1.00
+  SPI30192500          CONDUIT    972.25     0  00:09      6.21  211.73    1.00
+  SPI30192600          CONDUIT    971.27     0  00:09      6.20   38.12    1.00
+  SPI30192800          CONDUIT    135.11     0  16:25      0.86    5.93    1.00
+  SPI30193100          CONDUIT     11.39     0  20:33      0.52   18.45    1.00
+  SPI30193200          CONDUIT     55.09     1  00:07      1.41   11.76    1.00
+  SPI30193300          CONDUIT    316.44     1  00:07      3.59   14.68    1.00
+  SPI301E5001          CONDUIT   1586.53     0  00:00      2.53   56.90    1.00
+  SPI301E5002          CONDUIT    417.17     0  00:00      4.73    5.63    1.00
+  SPI301E5003          CONDUIT    963.50     0  00:09      2.73    0.65    1.00
+  SPI301E5004          CONDUIT   1640.11     0  00:00      2.62   59.51    1.00
+  SPI301E5005          CONDUIT   1640.40     0  00:00     10.47  140.77    1.00
+  SPI301E5006          CONDUIT   1633.05     0  00:00      2.61   68.57    1.00
+  SPI301E5007          CONDUIT   1632.63     0  00:00      2.61   59.39    1.00
+  SPI301E5008          CONDUIT   1626.80     0  00:00      2.60   11.70    1.00
+  SPI301E5009          CONDUIT   1622.38     0  00:00      2.59   81.21    1.00
+  SPI301E5010          CONDUIT   1621.80     0  00:00      2.59   65.73    1.00
+  SPI301E5011          CONDUIT   1621.03     0  00:00      2.59   87.40    1.00
+  SPI301E5012          CONDUIT   1618.49     0  00:00      2.58   36.69    1.00
+  SPI301E5013          CONDUIT   1607.97     0  00:00      2.57   18.07    1.00
+  SPI301E5014          CONDUIT   1596.97     0  00:00      2.55   34.10    1.00
+  SPI301E5015          CONDUIT   1592.99     0  00:00      2.54   52.23    1.00
+  SPI301E5016          CONDUIT    968.57     0  16:35      2.75   17.31    1.00
+  SPI301E5017          CONDUIT    972.23     0  00:09      6.21   82.82    1.00
+  SPI301E5018          CONDUIT    972.28     0  00:09      6.21  235.38    1.00
+  SPI301E5019          CONDUIT    972.16     0  00:09      6.21  199.09    1.00
+  SPI301E5020          CONDUIT    176.35     0  00:47      2.35    2.88    1.00
+  SPI301E5021          CONDUIT   1589.80     0  00:00      2.54   46.18    1.00
+  SPI37006500          CONDUIT    442.04     1  00:10      8.83    5.97    1.00
+  SPI37006600          CONDUIT    373.62     0  00:00      4.24    5.04    1.00
+  SPI37006700          CONDUIT    373.64     0  00:00      4.24    5.04    1.00
+  SPI37006800          CONDUIT    374.01     0  00:00      4.24    5.05    1.00
+  SPI37006900          CONDUIT    388.09     0  00:00      4.40    5.24    1.00
+  SPI37007000          CONDUIT    397.30     0  00:00      4.51    5.36    1.00
+  SPI37007100          CONDUIT    256.77     0  00:03      3.90    4.20    1.00
+  SPI37007200          CONDUIT    270.72     0  00:30      3.09    4.43    1.00
+  SPI37007300          CONDUIT    963.47     0  00:09      6.15    1.85    1.00
+  SPI37007400          CONDUIT    963.47     0  00:09      2.73    0.65    1.00
+  SPI37007500          CONDUIT    380.97     0  00:00      4.32    5.14    1.00
+  SPI37007600          CONDUIT   1041.70     0  16:17      6.65    0.43    1.00
+  PUMP-11              PUMP       963.49     0  00:09              0.88
+  PUMP-31A             PUMP      1604.83     1  01:54              0.87
+  PUMP-31A1            PUMP       750.00     0  00:00              1.00
+  PUMP-31A2            PUMP       249.14     1  03:25              0.47
+  PUMP-31A3            PUMP       436.53     0  20:17              0.83
+  PUMP-31A4            PUMP       300.31     1  04:44              0.57
+  PUMP-31A5            PUMP       525.00     0  12:49              1.00
+  PUMP-31F1            PUMP       525.00     0  03:48              1.00
+  PUMP-31F2            PUMP       525.00     0  01:28              1.00
+  PUMP-31F21           PUMP       525.00     0  01:23              1.00
+  PUMP-31F22           PUMP       750.00     0  00:00              1.00
+  
+  
+  ***************************
+  Flow Classification Summary
+  ***************************
+  
+  -------------------------------------------------------------------------------------
+                      Adjusted    ---------- Fraction of Time in Flow Class ---------- 
+                       /Actual         Up    Down  Sub   Sup   Up    Down  Norm  Inlet 
+  Conduit               Length    Dry  Dry   Dry   Crit  Crit  Crit  Crit  Ltd   Ctrl  
+  -------------------------------------------------------------------------------------
+  CDT-310                 1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  CDT-310-1               1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  CDT-312                 1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.98  0.00
+  CDT-31A1D               1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  CDT-31A2D               1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  CDT-31A3D               1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  CDT-31A4D               1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  CDT-31A5D               1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  CDT-31F1D               1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.95  0.00
+  CDT-31F2                1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.01  0.00
+  CDT-31F21D              1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  CDT-31F22               1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  CDT-331AD               1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  CDT-35                  1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  EAC_SGP30100003         1.00   0.00  0.00  0.00  0.89  0.11  0.00  0.00  0.01  0.00
+  EAC_SGP30100006         1.00   0.00  0.00  0.00  0.92  0.08  0.00  0.00  0.82  0.00
+  EAC_SGP30100013         1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.99  0.00
+  EAC_SGP30100014         1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.99  0.00
+  EAC_SGP30100015         1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  EAC_SGP30100016         1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00
+  EAC_SGP30100019         1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.01  0.00
+  EAC_SPG30100001         1.00   0.00  0.00  0.00  0.01  0.00  0.00  0.99  0.00  0.00
+  EAC_SPG30100002         1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.99  0.00
+  EAC_SPG30100004         1.00   0.00  0.00  0.00  0.93  0.07  0.00  0.00  0.90  0.00
+  EAC_SPG30100005         1.00   0.00  0.00  0.00  0.91  0.09  0.00  0.00  0.91  0.00
+  EAC_SPG30100011         1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.99  0.00
+  EAC_SPG30100012         1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.01  0.00
+  SGP30116140             1.00   0.00  0.00  0.00  0.01  0.00  0.00  0.99  0.00  0.00
+  SGP30116150             1.00   0.00  0.00  0.00  0.01  0.99  0.00  0.00  0.00  0.00
+  SGP30116170             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00
+  SGP30118160             1.00   0.00  0.00  0.00  0.93  0.07  0.00  0.00  0.00  0.00
+  SGP30118300             1.00   0.00  0.00  0.00  0.59  0.41  0.00  0.00  0.00  0.00
+  SGP30118350             1.00   0.00  0.00  0.00  0.90  0.10  0.00  0.00  0.73  0.00
+  SGP30118360             1.00   0.00  0.00  0.00  0.82  0.18  0.00  0.00  0.73  0.00
+  SGP30118370             1.00   0.00  0.08  0.00  0.92  0.00  0.00  0.00  1.00  0.00
+  SGP30118380             1.00   0.00  0.00  0.00  0.99  0.01  0.00  0.00  0.98  0.00
+  SGP30118390             1.00   0.00  0.00  0.00  0.83  0.17  0.00  0.00  0.82  0.00
+  SGP30118400             1.00   0.00  0.00  0.00  0.86  0.14  0.00  0.00  0.86  0.00
+  SGP30190400             1.00   0.00  0.00  0.00  0.99  0.01  0.00  0.00  0.98  0.00
+  SGP30190600             1.00   0.00  0.00  0.00  0.98  0.02  0.00  0.00  0.64  0.00
+  SGP30190700             1.00   0.00  0.05  0.00  0.93  0.02  0.00  0.00  0.98  0.00
+  SGP30190800             1.00   0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00
+  SGP301E0007             1.00   0.00  0.00  0.00  0.93  0.07  0.00  0.00  0.89  0.00
+  SGP301E0020             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.96  0.00
+  SGP37001700             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.99  0.00
+  SGP37001800             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SGP37001900             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00
+  SGP37002000             1.00   0.00  0.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00
+  SPI30100200             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30100300             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.97  0.00
+  SPI3010031A             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30100400             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30100600             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30100700             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.68  0.00
+  SPI30100800             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30101000             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.51  0.00
+  SPI30101300             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30101500             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30101600             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30101700             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30101800             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30101900             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30102000             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30102600             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.01  0.00
+  SPI30102700             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30102800             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.01  0.00
+  SPI30102900             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30103100             1.00   0.00  0.00  0.00  0.88  0.12  0.00  0.00  0.07  0.00
+  SPI301031A1             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301031A2             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301031A3             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301031A4             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301031A5             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.28  0.00
+  SPI301031F2             1.00   0.00  0.00  0.00  0.94  0.06  0.00  0.00  0.00  0.00
+  SPI30104500             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.04  0.00
+  SPI30104600             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.36  0.00
+  SPI30104700             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30109800             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30122000             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30123000             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30123100             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30123200             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30131F21             1.00   0.00  0.00  0.00  0.99  0.01  0.00  0.00  0.00  0.00
+  SPI30131F22             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30191000             5.76   0.00  0.48  0.00  0.45  0.08  0.00  0.00  1.00  0.00
+  SPI30191200             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.01  0.00
+  SPI30191300             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30191600             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30191800             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30192000             1.00   0.00  0.47  0.00  0.45  0.08  0.00  0.00  0.86  0.00
+  SPI30192100             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30192200             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30192300             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30192500             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30192600             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30192800             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30193100             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30193200             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI30193300             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5001             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5002             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5003             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5004             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5005             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5006             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5007             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5008             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5009             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5010             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5011             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5012             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5013             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5014             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5015             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5016             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5017             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5018             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5019             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI301E5020             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.17  0.00
+  SPI301E5021             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI37006500             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.97  0.00
+  SPI37006600             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.91  0.00
+  SPI37006700             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.85  0.00
+  SPI37006800             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.86  0.00
+  SPI37006900             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.86  0.00
+  SPI37007000             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.58  0.00
+  SPI37007100             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI37007200             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.43  0.00
+  SPI37007300             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI37007400             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  SPI37007500             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.87  0.00
+  SPI37007600             1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  
+  
+  *************************
+  Conduit Surcharge Summary
+  *************************
+  
+  ----------------------------------------------------------------------------
+                                                           Hours        Hours 
+                         --------- Hours Full --------   Above Full   Capacity
+  Conduit                Both Ends  Upstream  Dnstream   Normal Flow   Limited
+  ----------------------------------------------------------------------------
+  CDT-310                    30.00     30.00     30.00     19.40        15.83
+  CDT-310-1                  30.00     30.00     30.00     18.47        15.70
+  CDT-312                     0.02      0.04     18.51      0.10         0.01
+  CDT-31A1D                  29.98     29.98     30.00      2.23         9.31
+  CDT-31A2D                  28.62     28.69     28.87      4.61        14.43
+  CDT-31A3D                  29.57     29.66     29.70      2.79        14.98
+  CDT-31A4D                  30.00     30.00     30.00      0.10        14.83
+  CDT-31A5D                   0.05      0.09      0.05      0.56         0.04
+  CDT-31F1D                   0.06      0.12      0.25      0.14         0.06
+  CDT-31F2                   11.62     11.83     12.11      4.75         6.08
+  CDT-31F21D                  0.91      0.98      1.02      2.41         0.43
+  CDT-31F22                   6.91      7.00      7.13      0.92         2.15
+  CDT-331AD                  30.00     30.00     30.00      3.72        10.27
+  CDT-35                     30.00     30.00     30.00     25.86        16.89
+  EAC_SGP30100003             0.01      0.01      0.01      0.01         0.01
+  EAC_SGP30100006             0.01      0.02      0.01      0.02         0.01
+  EAC_SGP30100013             0.12      0.12      0.21      0.01         0.01
+  EAC_SGP30100014             0.08      0.08      0.12      0.01         0.01
+  EAC_SGP30100015             0.01      0.01      0.08      0.01         0.01
+  EAC_SGP30100016             0.01      0.01      0.01      0.01         0.01
+  EAC_SGP30100019             0.01      0.01      0.02      0.01         0.01
+  EAC_SPG30100001             0.30      0.32      0.31      0.07         0.04
+  EAC_SPG30100002             0.01      0.01      0.35      0.01         0.01
+  EAC_SPG30100004             0.01      0.02      0.01      0.04         0.01
+  EAC_SPG30100005             0.01      0.01      0.02      0.02         0.01
+  EAC_SPG30100011             0.27      0.27      0.32      0.01         0.01
+  EAC_SPG30100012             0.20      0.21      0.27      0.01         0.02
+  SGP30116140                 0.01      0.01      0.10      0.01         0.01
+  SGP30116150                 0.01      0.01      0.01      0.01         0.01
+  SGP30116170                 0.01      0.01      0.01      0.01         0.01
+  SGP30118160                 0.01      0.02      0.01      0.02         0.01
+  SGP30118300                 0.02      0.05      0.02      0.15         0.02
+  SGP30118350                 0.05      0.08      0.05      0.14         0.05
+  SGP30118360                 0.08      0.11      0.08      0.12         0.08
+  SGP30118370                 0.06      0.06      0.11      0.01         0.01
+  SGP30118380                 0.02      0.02      0.06      0.01         0.01
+  SGP30118390                 0.06      0.06      0.11      0.01         0.01
+  SGP30118400                 0.02      0.02      0.06      0.01         0.01
+  SGP30190400                 0.01      0.01      0.01      0.01         0.01
+  SGP30190600                 0.01      0.01      0.01      0.01         0.01
+  SGP30190700                 0.01      0.01      0.04      0.02         0.01
+  SGP30190800                 0.04      0.04      0.06      0.02         0.01
+  SGP301E0007                 0.01      0.01      0.02      0.01         0.01
+  SGP301E0020                 0.01      0.01      0.01      0.01         0.01
+  SGP37001700                 0.02      0.02      0.14      0.01         0.01
+  SGP37001800                 0.01      0.14      0.01      0.21         0.01
+  SGP37001900                 0.01      0.01      0.17      0.01         0.01
+  SGP37002000                 0.01      0.17      0.01      5.69         0.01
+  SPI30100200                 0.03      0.03      0.03      0.43         0.02
+  SPI30100300                 0.03      0.07      0.03      0.38         0.03
+  SPI3010031A                25.53     26.17     26.09      4.86         9.17
+  SPI30100400                 0.07      0.08      0.07      0.28         0.06
+  SPI30100600                 0.15      0.15      0.15      0.01         0.04
+  SPI30100700                 0.08      0.16      0.08      0.08         0.07
+  SPI30100800                 0.15      0.15      0.16      0.05         0.02
+  SPI30101000                 0.87      1.08      3.05      1.41         0.84
+  SPI30101300                 0.04      0.04      0.05      8.06         0.02
+  SPI30101500                 0.02      0.03      0.02     30.00         0.02
+  SPI30101600                 0.03      0.05      0.03     29.44         0.02
+  SPI30101700                 0.03      0.08      0.04     21.57         0.02
+  SPI30101800                 0.07      0.25      0.08      1.06         0.04
+  SPI30101900                 0.24      0.31      0.25      0.99         0.19
+  SPI30102000                 0.28      0.39      0.31      1.40         0.22
+  SPI30102600                26.31     27.12     28.30     23.73        14.30
+  SPI30102700                25.99     26.34     26.63      3.45         8.29
+  SPI30102800                26.15     26.63     27.11     14.11        13.70
+  SPI30102900                25.83     26.09     26.63      5.56         8.95
+  SPI30103100                 0.04      0.05     27.59      3.82         0.01
+  SPI301031A1                30.00     30.00     30.00      4.54        11.48
+  SPI301031A2                27.56     27.59     28.87      3.73         0.20
+  SPI301031A3                29.64     29.72     29.70      2.44         0.11
+  SPI301031A4                29.92     29.92     29.94      0.12        13.27
+  SPI301031A5                 0.02      0.05      0.03      0.06         0.02
+  SPI301031F2                 1.02      3.23      1.08      3.39         0.94
+  SPI30104500                 2.45      3.05      2.60      2.32         1.79
+  SPI30104600                 2.31      2.60      2.49      3.56         1.88
+  SPI30104700                 2.36      2.49      2.43      3.86         1.96
+  SPI30109800                29.99     29.99     30.00     14.24        14.76
+  SPI30122000                18.49     18.51     29.94      0.09         0.01
+  SPI30123000                29.72     30.00     29.72      2.45         0.27
+  SPI30123100                29.99     30.00     29.99      2.37         0.17
+  SPI30123200                 2.54      2.54     30.00      2.37         0.08
+  SPI30131F21                 0.13      0.34      0.16      0.39         0.02
+  SPI30131F22                 0.36      0.47      0.39      0.92         0.31
+  SPI30191000                 0.01      0.01     30.00      0.01         0.01
+  SPI30191200                27.69     27.93     29.14     10.43        14.85
+  SPI30191300                29.10     29.14     29.85      9.18        13.76
+  SPI30191600                27.50     27.51     27.93      5.83        12.77
+  SPI30191800                 2.32      2.33      2.54      2.34         0.06
+  SPI30192000                 0.01      0.01     30.00      2.34         0.01
+  SPI30192100                29.86     29.86     30.00     26.79        15.79
+  SPI30192200                27.19     27.73     28.40      7.32        12.69
+  SPI30192300                28.40     28.42     29.99     25.26        15.45
+  SPI30192500                29.06     29.36     29.56     25.82        14.99
+  SPI30192600                27.87     28.30     29.13     13.91        13.73
+  SPI30192800                30.00     30.00     30.00      1.28         8.68
+  SPI30193100                29.96     29.96     30.00      1.12        10.29
+  SPI30193200                30.00     30.00     30.00      2.60         8.59
+  SPI30193300                30.00     30.00     30.00      3.78         9.24
+  SPI301E5001                27.17     27.29     29.13     21.85        15.42
+  SPI301E5002                 0.02      0.02      0.02      0.21         0.02
+  SPI301E5003                30.00     30.00     30.00      0.01         0.01
+  SPI301E5004                30.00     30.00     30.00     24.66        15.51
+  SPI301E5005                30.00     30.00     30.00     27.65        16.14
+  SPI301E5006                29.99     30.00     29.99     25.16        15.76
+  SPI301E5007                30.00     30.00     30.00     24.49        15.77
+  SPI301E5008                29.99     29.99     30.00     13.31        14.77
+  SPI301E5009                29.99     29.99     29.99     25.56        15.70
+  SPI301E5010                29.99     29.99     29.99     24.62        15.69
+  SPI301E5011                29.99     29.99     29.99     25.82        15.71
+  SPI301E5012                29.97     29.97     29.99     21.23        15.78
+  SPI301E5013                29.84     29.85     29.97     15.94        15.48
+  SPI301E5014                29.71     29.81     29.85     20.40        15.74
+  SPI301E5015                29.54     29.65     29.81     22.74        15.78
+  SPI301E5016                29.99     29.99     30.00     13.88        14.92
+  SPI301E5017                29.93     29.93     30.00     22.69        14.53
+  SPI301E5018                29.51     29.56     29.93     27.05        14.56
+  SPI301E5019                28.62     29.14     29.36     25.48        15.02
+  SPI301E5020                 0.41      0.44      2.43      0.37         0.02
+  SPI301E5021                28.95     29.14     29.65     21.29        15.58
+  SPI37006500                 0.02      0.03      0.02      0.10         0.02
+  SPI37006600                 0.02      0.02      0.04      0.02         0.02
+  SPI37006700                 0.03      0.04      0.03      0.02         0.02
+  SPI37006800                 0.03      0.03      0.03      0.11         0.02
+  SPI37006900                 0.02      0.02      0.02      0.17         0.02
+  SPI37007000                 0.02      0.02      0.02      0.20         0.02
+  SPI37007100                 0.02      0.39      0.02      7.31         0.02
+  SPI37007200                 0.39      2.43      0.39      7.25         0.39
+  SPI37007300                30.00     30.00     30.00      2.79         0.03
+  SPI37007400                30.00     30.00     30.00      0.01         0.01
+  SPI37007500                 0.02      0.03      0.02      0.14         0.02
+  SPI37007600                29.12     29.12     30.00      0.01         0.01
+  
+  
+  ***************
+  Pumping Summary
+  ***************
+  
+  ---------------------------------------------------------------------------------------------------------
+                                                  Min       Avg       Max     Total     Power    % Time Off
+                        Percent   Number of      Flow      Flow      Flow    Volume     Usage    Pump Curve
+  Pump                 Utilized   Start-Ups       GPM       GPM       GPM  10^6 gal     Kw-hr    Low   High
+  ---------------------------------------------------------------------------------------------------------
+  PUMP-11                  9.13          92      0.00    883.48    963.49     0.145     19.37    0.0    0.0
+  PUMP-31A                 8.41         162      0.00    949.03   1604.83     0.144     48.87    0.0    0.0
+  PUMP-31A1                6.79          58      0.00    737.02    750.00     0.090     19.33    0.0   75.4
+  PUMP-31A2               11.66          89      0.00    161.73    249.14     0.034      4.64    0.0    0.0
+  PUMP-31A3                7.95          38      0.00    352.73    436.53     0.051      6.86    0.0    0.0
+  PUMP-31A4                0.26           4      0.00    184.06    300.31     0.001      0.11    0.0    0.0
+  PUMP-31A5                0.29           5      0.00    308.19    525.00     0.002      0.15    0.0    8.3
+  PUMP-31F1                0.45          11      0.00    444.17    525.00     0.004      0.32    0.0   14.4
+  PUMP-31F2               11.39         112      0.00    380.43    525.00     0.078      6.12    0.0    1.2
+  PUMP-31F21               1.24          43      0.00    429.20    525.00     0.010      0.58    0.0    9.4
+  PUMP-31F22               1.68          67      0.00    747.22    750.00     0.023      1.53    0.0   98.7
+  
+
+  Analysis begun on:  Wed Jan 02 04:47:09 2019
+  Analysis ended on:  Wed Jan 02 04:47:58 2019
+  Total elapsed time: 00:00:49
